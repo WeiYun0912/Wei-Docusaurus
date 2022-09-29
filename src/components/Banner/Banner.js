@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Background from "../../../static/img/background.jpg";
 import Github from "../../../static/img/github.svg";
 import Youtube from "../../../static/img/youtube.svg";
 import Instagram from "../../../static/img/instagram.svg";
@@ -8,7 +7,7 @@ import Instagram from "../../../static/img/instagram.svg";
 import Link from "@docusaurus/Link";
 const Banner = () => {
   return (
-    <BannerStyled Background={Background}>
+    <BannerStyled>
       <BannerBox>
         <BannerTitle>Wei's Profile</BannerTitle>
         <BannerRewardTotal>競賽累積獎金：$216,400</BannerRewardTotal>
@@ -43,7 +42,7 @@ const BannerStyled = styled.div`
   width: 100%;
   height: 45vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${(props) => props.Background});
+    url("img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; //待調整
   background-position: center;
