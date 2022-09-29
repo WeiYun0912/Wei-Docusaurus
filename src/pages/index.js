@@ -6,14 +6,6 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
 
-function HomepageHeader() {
-  return (
-    <>
-      <Banner />
-    </>
-  );
-}
-
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -21,7 +13,7 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
+      <Banner />
       <main>
         <HomepageFeatures />
         <Projects />

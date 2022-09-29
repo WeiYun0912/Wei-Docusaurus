@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Github from "../../../static/img/github.svg";
-import Youtube from "../../../static/img/youtube.svg";
-import Instagram from "../../../static/img/instagram.svg";
 
 import Link from "@docusaurus/Link";
 const Banner = () => {
