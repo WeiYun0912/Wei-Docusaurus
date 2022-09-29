@@ -1,11 +1,14 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
+import Blockchain from "../../../static/img/blockchain.png";
+import WebDevelopment from "../../../static/img/web-development.png";
+import MobileDevelopment from "../../../static/img/mobile-development.png";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "網頁應用程式開發",
+    imgSrc: WebDevelopment,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -14,8 +17,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "手機應用程式開發",
+    imgSrc: MobileDevelopment,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -24,8 +27,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "區塊鏈應用程式開發",
+    imgSrc: Blockchain,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -35,14 +38,15 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ imgSrc, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
+        <img src={imgSrc} className={styles.featureImg} />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h2 style={{ marginTop: "15px" }}>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
