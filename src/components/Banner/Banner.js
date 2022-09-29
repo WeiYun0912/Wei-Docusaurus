@@ -15,18 +15,18 @@ const Banner = () => {
           <BannerPortfolio>我的程式筆記</BannerPortfolio>
         </Link>
         <BannerSocialMedia>
-          <Link to="https://github.com/WeiYun0912" style={{ width: "100%" }}>
+          <Link to="https://github.com/WeiYun0912" style={{ width: "200px" }}>
             <Github stroke="#fff" role="img" />
           </Link>
           <Link
             to="https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw"
-            style={{ width: "100%" }}
+            style={{ width: "200px" }}
           >
             <Youtube stroke="#fff" role="img" />
           </Link>
           <Link
             to="https://www.instagram.com/weiwei225/"
-            style={{ width: "100%" }}
+            style={{ width: "200px" }}
           >
             <Instagram stroke="#fff" role="img" />
           </Link>
