@@ -15,24 +15,23 @@ const Banner = () => {
           <BannerPortfolio>我的程式筆記</BannerPortfolio>
         </Link>
         <BannerSocialMedia>
-          <Link to="https://github.com/WeiYun0912" style={{ width: "200px" }}>
-            {/* <Github stroke="#fff" role="img" /> */}
-            <img src="img/github.svg" />
+          {/* <Link to="https://github.com/WeiYun0912" style={{ width: "200px" }}>
+         
           </Link>
           <Link
             to="https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw"
             style={{ width: "200px" }}
           >
-            {/* <Youtube stroke="#fff" role="img" /> */}
-            <img src="img/youtube.svg" />
+          
           </Link>
           <Link
             to="https://www.instagram.com/weiwei225/"
             style={{ width: "200px" }}
-          >
-            {/* <Instagram stroke="#fff" role="img" /> */}
-            <img src="img/instagram.svg" />
-          </Link>
+          ></Link> */}
+
+          <img src="img/github.svg" />
+          <img src="img/youtube.svg" />
+          <img src="img/instagram.svg" />
         </BannerSocialMedia>
       </BannerBox>
     </BannerStyled>
