@@ -29,9 +29,9 @@ const Banner = () => {
             style={{ width: "200px" }}
           ></Link> */}
 
-          <img src="img/github.svg" />
-          <img src="img/youtube.svg" />
-          <img src="img/instagram.svg" />
+          <img src="img/github.svg" width={80} />
+          <img src="img/youtube.svg" width={80} />
+          <img src="img/instagram.svg" width={80} />
         </BannerSocialMedia>
       </BannerBox>
     </BannerStyled>
