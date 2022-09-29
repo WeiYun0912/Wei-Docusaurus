@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="container">
         <div style={{ display: "flex" }}>
           <div style={{ width: "55%" }}>
-            <img src="img/Github.png" className={styles.featureImg} />
+            <img src="img/GithubResume.png" className={styles.featureImg} />
           </div>
           <div
             style={{

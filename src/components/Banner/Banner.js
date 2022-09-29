@@ -15,23 +15,24 @@ const Banner = () => {
           <BannerPortfolio>我的程式筆記</BannerPortfolio>
         </Link>
         <BannerSocialMedia>
-          {/* <Link to="https://github.com/WeiYun0912" style={{ width: "200px" }}>
-         
+          <Link to="https://github.com/WeiYun0912" style={{ width: "200px" }}>
+            <img src="img/github.png" width={80} />
           </Link>
           <Link
             to="https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw"
             style={{ width: "200px" }}
           >
-          
+            <img src="img/youtube.svg" width={80} />
           </Link>
           <Link
             to="https://www.instagram.com/weiwei225/"
             style={{ width: "200px" }}
-          ></Link> */}
-
-          <img src="img/github.svg" width={80} />
-          <img src="img/youtube.svg" width={80} />
-          <img src="img/instagram.svg" width={80} />
+          >
+            <img src="img/instagram.svg" width={80} />
+          </Link>
+          <Link to="https://medium.com/@weiyun0912" style={{ width: "200px" }}>
+            <img src="img/mediumpost.png" width={80} />
+          </Link>
         </BannerSocialMedia>
       </BannerBox>
     </BannerStyled>
@@ -84,7 +85,7 @@ const BannerPortfolio = styled.button`
 
 const BannerSocialMedia = styled.div`
   margin-top: 30px;
-  width: 200px;
+  width: 300px;
   gap: 20px;
   display: flex;
   justify-content: space-around;
