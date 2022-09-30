@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "projectTitle": "Github 主頁面經營",
+    "projectDescribe": "將相關比賽經歷和學習過的程式語言與工具列出，並利用Github Action來實作自動化功能，當Youtube頻道有新影片上傳或是Medium Post有新文章上傳時，就會觸發Action，將影片與文章連結自動更新至Github主頁面。",
+    "projectImage": "img/projects/GithubResume.png",
+    "githubUrl": "https://github.com/WeiYun0912",
+    "tech": "Github Action Workflows, Markdown"
+  },
+
+  {
+    "id": 2,
+    "projectTitle": "Youtube 頻道經營",
+    "projectDescribe": "日常會分享一些程式語言或工具的使用方式，透過這樣的方式來記錄自己曾經做了哪些事情，以後如果忘記程式或工具的使用方式也可以透過影片幫助自己回想起來，同時也抱持著有一天這部影片搞不好能夠幫助到人的想法。",
+    "projectImage": "img/projects/Youtube.png",
+    "channelUrl": "https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw"
+  },
+  {
+    "id": 3,
+    "projectTitle": "電影介紹 網頁",
+    "projectDescribe": "使用React來製作一個電影介紹網站，主要是練習如何使用React去Fetch別人的API，並把拿到的資料進行整理並顯示在畫面上供別人查看，在該次開發也遇到了問題，因網頁載入時會直接將電影的圖片顯示出來，如果圖片太多張則會導致網頁有效能的問題，於是最後使用了Image Lazy Loading來解決此問題。",
+    "projectImage": "img/projects/MovieWebsite.png",
+    "githubUrl": "https://github.com/WeiYun0912/starmovie",
+    "tech": "React, Redux, Axios"
+  },
+  {
+    "id": 4,
+    "projectTitle": "調酒介紹 網頁",
+    "projectDescribe": "使用React來製作一個調酒介紹網站，同樣是去Fetch別人的API，而該專案是想練習React如何製作動畫特效。",
+    "projectImage": "img/projects/DriDriGo.png",
+    "tech": "React, Redux",
+    "githubUrl": "https://github.com/WeiYun0912/DriDriGo"
+  },
+
+  {
+    "id": 5,
+    "projectTitle": "Open-Sea Clone",
+    "projectDescribe": "觀看Youtube的Clone影片，Clone出Open Sea，在過程中也接觸到新的工具ThirdWeb，透過ThirdWeb能夠快速地建立想要的智能合約類型，例如ERC20、ERC721，而我們只需要透過ThirdWeb提供的SDK去操作智能合約，就能讓網站達到去中心化。",
+    "projectImage": "img/projects/OpenSea.png",
+    "tech": "React, ThirdWeb, Sanity.io",
+    "githubUrl": "https://github.com/WeiYun0912/opensea-clone"
+  },
+  {
+    "id": 6,
+    "projectTitle": "電影介紹 APP",
+    "projectDescribe": "第一個React Native專案，學習如何使用React Native Expo進行開發，在開發結束將專案打包成APK檔案時，發現Expo預設產生的APK檔案非常大，於是寫了一篇使用原生React Native打包APK的文章給自己看。",
+    "projectImage": "img/projects/MovieAPP.png",
+    "tech": "React Native Expo",
+    "githubUrl": "https://github.com/WeiYun0912/React-Native-Wei-Movies"
+  },
+  {
+    "id": 7,
+    "projectTitle": "圖書 APP",
+    "projectDescribe": "因家人有買書的習慣，但常常會忘記該本書是否已經買過，導致又買了一樣的書，為了解決此問題，用了React Native製作一款APP供家人使用，將書籍資料建檔以後即可在該APP查詢，透過手機掃描書籍ISBN號碼後，可以進行本地搜尋或線上搜尋來確認這本書是否已經購買過。",
+    "projectImage": "img/projects/NativeBook.png",
+    "tech": "React Native Expo, Expo BarCode Scanner, GraphQL, MongoDB, Mongoose, Puppeteer, Cheerio",
+    "githubUrl": "https://github.com/WeiYun0912/React-Native-Book"
+  },
+  {
+    "id": 8,
+    "projectTitle": "怪獸電力公司 刻板練習",
+    "projectDescribe": "在閒暇之餘喜歡挑戰自己對於CSS的熟悉程度，所以都會找喜歡的卡通或電影來製作一個簡單的Landing Page。",
+    "projectImage": "img/projects/MonsterInc.png",
+    "tech": "HTML, CSS, JavaScript",
+    "githubUrl": "https://github.com/WeiYun0912/Monster-Inc"
+  },
+  {
+    "id": 9,
+    "projectTitle": "辛普森家庭 刻板練習",
+    "projectDescribe": "在閒暇之餘喜歡挑戰自己對於CSS的熟悉程度，所以都會找喜歡的卡通或電影來製作一個簡單的Landing Page。",
+    "projectImage": "img/projects/Simpsons.png",
+    "tech": "HTML, CSS, JavaScript",
+    "githubUrl": "https://github.com/WeiYun0912/simpsons"
+  }
+]

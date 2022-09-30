@@ -1,32 +1,11 @@
 import React from "react";
-import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import styles from "./index.module.css";
-import Link from "@docusaurus/Link";
 import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import Project from "../helper/Projects.json";
+import SideProject from "../helper/SideProjects.json";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -36,10 +15,11 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <Banner />
-      {/* <HomepageHeader /> */}
       <main>
         <HomepageFeatures />
-        <Projects />
+        <Projects ProjectsData={Project} title="曾經參與過的專案 (比賽專題)" />
+
+        <Projects ProjectsData={SideProject} title="個人作品 (Side Projects)" />
       </main>
     </Layout>
   );

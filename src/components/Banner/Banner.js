@@ -7,7 +7,9 @@ const Banner = () => {
     <div className={styles.bannerContainer}>
       <div className={styles.bannerBox}>
         <h1 className={styles.bannerTitle}>Wei's Profile</h1>
-        <h2 className={styles.bannerRewardTotal}>競賽累積獎金：$216,400</h2>
+        <h2 className={styles.bannerRewardTotal}>
+          Everyday is another day to be better than you were yesterday
+        </h2>
         <Link to="/docs/intro">
           <button className={styles.bannerPortfolio}>我的程式筆記</button>
         </Link>

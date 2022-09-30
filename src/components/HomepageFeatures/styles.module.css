@@ -10,3 +10,9 @@
   height: 200px;
   width: 200px;
 }
+
+.title {
+  font-size: clamp(2rem, 3vw + 1rem, 3rem);
+  text-align: center;
+  margin-bottom: 4rem;
+}
