@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
-
+import { useColorMode } from "@docusaurus/theme-common";
 const Projects = ({ ProjectsData, title }) => {
+  const { colorMode, setColorMode } = useColorMode();
+  console.log(colorMode);
   return (
     <div className={styles.features}>
       <div className="container">
@@ -28,29 +30,39 @@ const Projects = ({ ProjectsData, title }) => {
                 {project?.role && <p>擔任的角色：{project.role}</p>}
 
                 {project?.githubUrl && (
-                  <p>
-                    專案連結：
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noreferrer noopenner"
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer noopenner"
+                  >
+                    <button
+                      className={[
+                        styles.button,
+                        colorMode === "light" && styles.buttonLight,
+                      ].join(" ")}
+                      role="button"
                     >
-                      {project.githubUrl}
-                    </a>
-                  </p>
+                      <span>專案連結</span>
+                    </button>
+                  </a>
                 )}
 
                 {project?.channelUrl && (
-                  <p>
-                    頻道連結：
-                    <a
-                      href={project.channelUrl}
-                      target="_blank"
-                      rel="noreferrer noopenner"
+                  <a
+                    href={project.channelUrl}
+                    target="_blank"
+                    rel="noreferrer noopenner"
+                  >
+                    <button
+                      className={[
+                        styles.button,
+                        colorMode === "light" && styles.buttonLight,
+                      ].join(" ")}
+                      role="button"
                     >
-                      {project.channelUrl}
-                    </a>
-                  </p>
+                      <span>頻道連結</span>
+                    </button>
+                  </a>
                 )}
               </div>
             </div>

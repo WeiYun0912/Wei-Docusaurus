@@ -5,6 +5,7 @@
     "projectDescribe": "將相關比賽經歷和學習過的程式語言與工具列出，並利用Github Action來實作自動化功能，當Youtube頻道有新影片上傳或是Medium Post有新文章上傳時，就會觸發Action，將影片與文章連結自動更新至Github主頁面。",
     "projectImage": "img/projects/GithubResume.png",
     "githubUrl": "https://github.com/WeiYun0912",
+
     "tech": "Github Action Workflows, Markdown"
   },
 
