@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+div[class^="announcementBar_"] {
+  font-size: 1.2em;
+  font-weight: bold;
+  background: repeating-linear-gradient(
+    35deg,
+    hsl(167, 68%, 85%),
+    hsl(167, 68%, 85%) 20px,
+    hsl(167, 68%, 95%) 10px,
+    hsl(167, 68%, 95%) 40px
+  );
+}

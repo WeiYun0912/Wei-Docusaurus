@@ -56,6 +56,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "support_us",
+        content:
+          '⭐️ 如果我的筆記內容有幫助到你的話，可以考慮到我的 <a target="_blank" rel="noopener noreferrer" href="https://github.com/WeiYun0912/Wei-Docusaurus">Github</a> 給顆星星哦！ ⭐️',
+        // backgroundColor: "",
+
+        textColor: "#091E42",
+        isCloseable: false,
+      },
       navbar: {
         title: "WeiYun0912",
         logo: {
