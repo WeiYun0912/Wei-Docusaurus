@@ -1,17 +1,17 @@
 import React from "react";
-import styled from "styled-components";
 
+import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
 const Banner = () => {
   return (
-    <BannerStyled>
-      <BannerBox>
-        <h1>Wei's Profile</h1>
-        <h2>競賽累積獎金：$216,400</h2>
-        {/* <Link to="/docs/intro">
-          <BannerPortfolio>我的程式筆記</BannerPortfolio>
+    <div className={styles.bannerContainer}>
+      <div className={styles.bannerBox}>
+        <h1 className={styles.bannerTitle}>Wei's Profile</h1>
+        <h2 className={styles.bannerRewardTotal}>競賽累積獎金：$216,400</h2>
+        <Link to="/docs/intro">
+          <button className={styles.bannerPortfolio}>我的程式筆記</button>
         </Link>
-        <BannerSocialMedia>
+        <div className={styles.bannerSocialMedia}>
           <Link to="https://github.com/WeiYun0912" style={{ width: "200px" }}>
             <img src="img/github.png" width={80} />
           </Link>
@@ -30,62 +30,10 @@ const Banner = () => {
           <Link to="https://medium.com/@weiyun0912" style={{ width: "200px" }}>
             <img src="img/mediumpost.png" width={80} />
           </Link>
-        </BannerSocialMedia> */}
-      </BannerBox>
-    </BannerStyled>
+        </div>
+      </div>
+    </div>
   );
 };
 
 export default Banner;
-
-const BannerStyled = styled.div`
-  width: 100%;
-  height: 45vh;
-  background-color: "cyan";
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; //待調整
-  background-position: center; */
-`;
-
-const BannerBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 45vh;
-`;
-
-const BannerTitle = styled.h1`
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-`;
-
-const BannerRewardTotal = styled.h2`
-  color: #fff;
-  font-size: 2em;
-  margin-top: 30px;
-`;
-
-const BannerPortfolio = styled.button`
-  padding: 0.5em;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-radius: 6px;
-  color: #fff;
-  background-color: #00c6cf;
-  margin-top: 45px;
-  border: 1px solid #00c6cf;
-  cursor: pointer;
-`;
-
-const BannerSocialMedia = styled.div`
-  margin-top: 30px;
-  width: 300px;
-  gap: 20px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-`;
