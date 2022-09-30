@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
-// import Banner from "../components/Banner/Banner";
+import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
 
 function HomepageHeader() {
@@ -35,8 +35,8 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      {/* <Banner /> */}
-      <HomepageHeader />
+      <Banner />
+      {/* <HomepageHeader /> */}
       <main>
         <HomepageFeatures />
         <Projects />

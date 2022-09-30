@@ -8,7 +8,7 @@ const Banner = () => {
       <BannerBox>
         <BannerTitle>Wei's Profile</BannerTitle>
         <BannerRewardTotal>競賽累積獎金：$216,400</BannerRewardTotal>
-        <Link to="/docs/intro">
+        {/* <Link to="/docs/intro">
           <BannerPortfolio>我的程式筆記</BannerPortfolio>
         </Link>
         <BannerSocialMedia>
@@ -30,7 +30,7 @@ const Banner = () => {
           <Link to="https://medium.com/@weiyun0912" style={{ width: "200px" }}>
             <img src="img/mediumpost.png" width={80} />
           </Link>
-        </BannerSocialMedia>
+        </BannerSocialMedia> */}
       </BannerBox>
     </BannerStyled>
   );
@@ -41,11 +41,12 @@ export default Banner;
 const BannerStyled = styled.div`
   width: 100%;
   height: 45vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-color: "cyan";
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; //待調整
-  background-position: center;
+  background-position: center; */
 `;
 
 const BannerBox = styled.div`
