@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <BannerStyled>
       <BannerBox>
-        <BannerTitle>Wei's Profile</BannerTitle>
-        <BannerRewardTotal>競賽累積獎金：$216,400</BannerRewardTotal>
+        <h1>Wei's Profile</h1>
+        <h2>競賽累積獎金：$216,400</h2>
         {/* <Link to="/docs/intro">
           <BannerPortfolio>我的程式筆記</BannerPortfolio>
         </Link>
