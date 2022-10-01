@@ -13,14 +13,6 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 筆記類別：
 
-- Blockchian
-- GraphQL
-- MongoDB
-- Puppeteer
-- React
-- React Native
-- VS Code
-
 - [Blockchain](pathname:///docs/category/blockchain)
 - [GraphQL](pathname:///docs/category/graphql)
 - [MongoDB](pathname:///docs/category/mongodb)
