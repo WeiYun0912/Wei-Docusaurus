@@ -21,13 +21,13 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 - React Native
 - VS Code
 
-- [Blockchain](./category/blockchain)
-- [GraphQL](./category/graphql)
-- [MongoDB](./category/mongodb)
-- [Puppeteer](./category/puppeteer)
-- [React](./category/react)
-- [React Native](./category/react-native)
-- [VS Code](./category/vs-code)
+- [Blockchain](/category/blockchain)
+- [GraphQL](/category/graphql)
+- [MongoDB](/category/mongodb)
+- [Puppeteer](/category/puppeteer)
+- [React](/category/react)
+- [React Native](/category/react-native)
+- [VS Code](/category/vs-code)
 
 持續更新中...
 
