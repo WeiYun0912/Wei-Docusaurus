@@ -21,6 +21,8 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 - [React Native](pathname:///docs/category/react-native)
 - [VS Code](pathname:///docs/category/vs-code)
 
+- [Blockchain](/category/blockchain)
+
 持續更新中...
 
 🚧 維修中... 檢查 Router
