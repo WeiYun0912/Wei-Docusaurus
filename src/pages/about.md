@@ -98,19 +98,19 @@ Youtube 頻道會不定時上傳程式教學，一方面是當自己忘記某個
 <div style={{display : "flex","gap" : "20px"}}>
 
 <div>
-<img src="img/about/1.jpg" alt="img" width="400"/>
+<img src="./img/about/1.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/2.jpg" alt="img" width="400"/>
+<img src="./img/about/2.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/3.jpg" alt="img" width="400"/>
+<img src="./img/about/3.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/4.jpg" alt="img" width="400"/>
+<img src="./img/about/4.jpg" alt="img" width="400"/>
 </div>
 
 </div>
@@ -120,38 +120,38 @@ Youtube 頻道會不定時上傳程式教學，一方面是當自己忘記某個
 <div style={{display : "flex","gap" : "20px"}}>
 
 <div>
-<img src="img/about/5.jpg" alt="img" width="400"/>
+<img src="./img/about/5.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/6.jpg" alt="img" width="400"/>
+<img src="./img/about/6.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/7.jpg" alt="img" width="400"/>
+<img src="./img/about/7.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/8.jpg" alt="img" width="400"/>
+<img src="./img/about/8.jpg" alt="img" width="400"/>
 </div>
 
 </div>
 <div style={{display : "flex","gap" : "20px"}}>
 
 <div>
-<img src="img/about/9.jpg" alt="img" width="400"/>
+<img src="./img/about/9.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/10.jpg" alt="img" width="400"/>
+<img src="./img/about/10.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/11.jpg" alt="img" width="400"/>
+<img src="./img/about/11.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/12.jpg" alt="img" width="400"/>
+<img src="./img/about/12.jpg" alt="img" width="400"/>
 </div>
 
 </div>
@@ -159,11 +159,11 @@ Youtube 頻道會不定時上傳程式教學，一方面是當自己忘記某個
 <div style={{display : "flex","gap" : "20px"}}>
 
 <div>
-<img src="img/about/13.jpg" alt="img" width="400"/>
+<img src="./img/about/13.jpg" alt="img" width="400"/>
 </div>
 
 <div>
-<img src="img/about/14.jpg" alt="img" width="400"/>
+<img src="./img/about/14.jpg" alt="img" width="400"/>
 </div>
 
 </div>
