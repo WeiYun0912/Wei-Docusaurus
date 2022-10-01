@@ -85,7 +85,12 @@ const config = {
             position: "left",
             label: "Note",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {
+            to: "about",
+            label: "About Me",
+            position: "left",
+          },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/WeiYun0912",
             label: "GitHub",
@@ -110,25 +115,25 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Intro",
                 to: "/docs/intro",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Social Media",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Facebook",
+                href: "https://www.facebook.com/ChunWeiYeah/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Instagram",
+                href: "https://www.instagram.com/weiwei225/",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Youtube",
+                href: "https://www.youtube.com/user/123123960/featured",
               },
             ],
           },
@@ -152,15 +157,10 @@ const config = {
                 label: "Medium Post",
                 href: "https://medium.com/@weiyun0912",
               },
-              {
-                href: "https://www.youtube.com/user/123123960/featured",
-                label: "Youtube",
-                position: "right",
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} By WeiYun0912, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} By WeiYun0912. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
