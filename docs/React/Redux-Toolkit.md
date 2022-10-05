@@ -7,9 +7,23 @@ og:title: React Redux Toolkit 教學
 og:description: 這篇是要來教如何使用Redux Toolkit，和以往不同，Redux Toolkit 簡化了許多。
 ---
 
+```
+src
+|   App.js
+|   index.js
+|
+└─── components
+│   │   Login.js
+│   │   NotLogin.js
+│   │   Profile.js
+│
+└─── reducers
+    │   userSlice.js
+```
+
 [影片連結](https://www.youtube.com/watch?v=IgFtEGXjl7Y)
 
-這篇是要來教如何使用**Redux Toolkit**，和以往不同，**Redux Toolkit**簡化了許多，在 Toolkit 還沒出來時，使用**Redux**來管理與操作**state**非常麻煩，今天的範例就簡單做個輸入資料然後登入的動作。
+這篇是要來教如何使用 **Redux Toolkit** ，和以往不同，**Redux Toolkit** 簡化了許多，在 Toolkit 還沒出來時，使用 **Redux** 來管理與操作 **state** 非常麻煩，今天的範例就簡單做個輸入資料然後登入的動作。
 
 ## 初始化
 
@@ -19,7 +33,7 @@ og:description: 這篇是要來教如何使用Redux Toolkit，和以往不同，
 npm i react-redux @reduxjs/toolkit
 ```
 
-使用 **Redux Toolkit** 之前，我們需要先做初始化的動作，我們先在 **_index.js_** 檔案做初始化，您也可選擇額外創建一個檔案，在裡面做初始化並 **Export** 。
+使用 **Redux Toolkit** 之前，我們需要先做初始化的動作，我們先在 **_index.js_** 檔案做初始化，您也可選擇額外創建一個檔案，在裡面做初始化並 **export** 。
 
 ```javascript title="index.js" showLineNumbers
 import React from "react";
@@ -131,18 +145,18 @@ ReactDOM.render(
 
 我們先來建立等等會用到的 component，會有 3 個。
 
-在 Profile 中，先將 **LoginComponent** 和 **NotLoginComponent** 引入，待會我們會利用 **useSelector hook** ，將原先定義的 **state** 內的 **login** 取出，來判斷現在使用者登入狀態還是未登入狀態。
+在 Profile 中，先將 **Login** 和 **NotLogin** 引入，待會我們會利用 **useSelector hook** ，將原先定義的 **state** 內的 **login** 取出，來判斷現在使用者登入狀態還是未登入狀態。
 
 ```javascript title="Profile.js" showLineNumbers
 import React from "react";
-import LoginComponent from "./LoginComponent";
-import NotLoginComponent from "./NotLoginComponent";
+import Login from "./Login";
+import NotLogin from "./NotLogin";
 const Profile = () => {
   return (
     <div>
       <h1>Profile Info</h1>
-      <LoginComponent />
-      <NotLoginComponent />
+      <Login />
+      <NotLogin />
     </div>
   );
 };
@@ -150,12 +164,12 @@ const Profile = () => {
 export default Profile;
 ```
 
-**LoginComponent** 中，我們會將使用者輸入的資料顯示，並且有一個登出的按鈕，按出之後會再回到輸入資料的畫面。
+**Login** 中，我們會將使用者輸入的資料顯示，並且有一個登出的按鈕，按出之後會再回到輸入資料的畫面。
 
-```javascript title="LoginComponent.js" showLineNumbers
+```javascript title="Login.js" showLineNumbers
 import React from "react";
 
-const LoginComponent = () => {
+const Login = () => {
   const handleLogout = () => {};
   return (
     <div>
@@ -167,14 +181,14 @@ const LoginComponent = () => {
   );
 };
 
-export default LoginComponent;
+export default Login;
 ```
 
-**NotLoginComponent** 中，會要求使用者輸入資料，按下登入後會將 **state login** 改為 **true** 並看到輸入的資料。
+**NotLogin** 中，會要求使用者輸入資料，按下登入後會將 **state login** 改為 **true** 並看到輸入的資料。
 
-```javascript title="NotLoginComponent.js" showLineNumbers
+```javascript title="NotLogin.js" showLineNumbers
 import React from "react";
-const NotLoginComponent = () => {
+const NotLogin = () => {
   const handleLogin = () => {};
   return (
     <div>
@@ -192,7 +206,7 @@ const NotLoginComponent = () => {
   );
 };
 
-export default NotLoginComponent;
+export default NotLogin;
 ```
 
 ## useSelector
@@ -204,14 +218,14 @@ export default NotLoginComponent;
 ```javascript title="Profile.js" showLineNumbers
 import React from "react";
 import { useSelector } from "react-redux";
-import LoginComponent from "./LoginComponent";
-import NotLoginComponent from "./NotLoginComponent";
+import Login from "./Login";
+import NotLogin from "./NotLogin";
 const Profile = () => {
   const state = useSelector((state) => state.user);
   return (
     <div>
       <h1>Profile Info</h1>
-      {state.isLogin ? <LoginComponent /> : <NotLoginComponent />}
+      {state.isLogin ? <Login /> : <NotLogin />}
     </div>
   );
 };
@@ -227,11 +241,11 @@ export default Profile;
 
 這邊使用了 **useDispatch** 去改變 **state** ，所以**React**會幫我們 **Rerender** 。
 
-```javascript title="NotLoginComponent.js" showLineNumbers
+```javascript title="NotLogin.js" showLineNumbers
 import React, { useRef } from "react";
 import { useDispatch } from "react-redux";
 import { setLogin } from "../reducers/userSlice";
-const NotLoginComponent = () => {
+const NotLogin = () => {
   const dispatch = useDispatch();
   const nameRef = useRef();
   const ageRef = useRef();
@@ -270,10 +284,8 @@ const NotLoginComponent = () => {
   );
 };
 
-export default NotLoginComponent;
+export default NotLogin;
 ```
-
-**_LoginComponent.js_**
 
 ```javascript
 import React from "react";
@@ -281,7 +293,7 @@ import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { setLogout } from "../reducers/userSlice";
 
-const LoginComponent = () => {
+const Login = () => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state.user);
   const handleLogout = () => {
@@ -297,12 +309,12 @@ const LoginComponent = () => {
   );
 };
 
-export default LoginComponent;
+export default Login;
 ```
 
 ## Action Creator
 
-因為在 reducer 內的 function 不能使用 async/await，也就是不能處理非同步事件，所以在這邊我們可以來自訂自己的 Action。
+因為在 reducer 內的 function 不能使用 async/await，也就是不能處理非同步事件，所以在這邊我們可以來自訂自己的 action。
 
 我們修改一下上面的 **userSlice.js** ，透過 **action creator** 來取得**外部 api 的資料**。
 
