@@ -1,5 +1,6 @@
 ---
 title: "React Query 介紹"
+keywords: [react, react hook, react教學, react query]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/React-Query-Note)
