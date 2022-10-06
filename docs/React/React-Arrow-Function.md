@@ -8,6 +8,8 @@ og:description: ES6 以後我們可以使用箭頭函式來宣告 function，在
 sidebar_position: 1
 ---
 
+[影片連結](https://www.youtube.com/watch?v=8SsraVLl3mQ)
+
 ## JavaScript
 
 在 JavaScript ES6 以前，會用到 function keyword 加上 function name 來宣告一個 function。

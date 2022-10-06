@@ -8,6 +8,8 @@ og:description: 在樣板字串還沒出現時，要在 JavaScript 串接字串�
 sidebar_position: 2
 ---
 
+[影片連結](https://www.youtube.com/watch?v=ik6r85_Q9h4)
+
 ## JavaScript
 
 在樣板字串還沒出現時，要在 JavaScript 串接字串是非常麻煩的事情，且也必須考慮到格式的問題。
