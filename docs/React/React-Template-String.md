@@ -1,10 +1,10 @@
 ---
 title: "React常用的JavaScript語法 - 樣板字串"
 keywords: [react, react教學, javascript, template string]
-description: ES6 以後我們可以使用箭頭函式來宣告 function，在程式碼少的情況下，使用箭頭函式也能夠讓程式碼較易讀。
+description: 在樣板字串還沒出現時，要在 JavaScript 串接字串是非常麻煩的事情，且也必須考慮到格式的問題。
 author: WeiYun0912
 og:title: React常用的JavaScript語法 - 樣板字串
-og:description: ES6 以後我們可以使用箭頭函式來宣告 function，在程式碼少的情況下，使用箭頭函式也能夠讓程式碼較易讀。
+og:description: 在樣板字串還沒出現時，要在 JavaScript 串接字串是非常麻煩的事情，且也必須考慮到格式的問題。
 sidebar_position: 2
 ---
 
