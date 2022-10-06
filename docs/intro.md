@@ -25,6 +25,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-07：新增 React 常用的 JavaScript 語法 - 物件 文章。
 - 2022-10-06：新增 React 常用的 JavaScript 語法 - 三元運算子 文章。
 - 2022-10-06：新增 React 常用的 JavaScript 語法 - 樣板字串 文章。
 - 2022-10-06：新增 React 常用的 JavaScript 語法 - 箭頭函式 文章。
