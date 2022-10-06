@@ -25,5 +25,6 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-06：新增 React 常用的 JavaScript 語法 - 樣板字串 文章。
 - 2022-10-06：新增 React 常用的 JavaScript 語法 - 箭頭函式 文章。
 - 2022-10-05：新增 React useRef 文章，修改 Redux Toolit 文章的內容。

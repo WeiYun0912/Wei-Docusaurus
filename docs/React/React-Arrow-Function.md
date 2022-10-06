@@ -1,10 +1,11 @@
 ---
 title: "React常用的JavaScript語法 - 箭頭函式"
 keywords: [react, react教學, javascript, arrow function]
-description: React 在 data fetch 上是較不方便的，不依靠第三方工具來處理資料的話，以下的功能需經過複雜的處理才有辦法達成。
+description: ES6 以後我們可以使用箭頭函式來宣告 function，在程式碼少的情況下，使用箭頭函式也能夠讓程式碼較易讀。
 author: WeiYun0912
-og:title: React Query 教學
-og:description: React 在 data fetch 上是較不方便的，不依靠第三方工具來處理資料的話，以下的功能需經過複雜的處理才有辦法達成。
+og:title: React常用的JavaScript語法 - 箭頭函式
+og:description: ES6 以後我們可以使用箭頭函式來宣告 function，在程式碼少的情況下，使用箭頭函式也能夠讓程式碼較易讀。
+sidebar_position: 1
 ---
 
 ## JavaScript
