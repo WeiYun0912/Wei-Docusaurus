@@ -10,7 +10,7 @@ og:description: 1。
 ## 安裝
 
 ```
-npx create-react-app
+npx create-react-app 你的專案名稱
 ```
 
 ```
