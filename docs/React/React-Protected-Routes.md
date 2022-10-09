@@ -1,10 +1,10 @@
 ---
 title: "React Protected Routes"
 keywords: [react, react教學, react protected routes]
-description: 1
+description: 今天要來介紹如何使用 React Router 來實作 Protected Routes，意思是我們可以將 Route 設定權限，當使用者登入時或具備某些權限才能夠訪問該 Route (頁面)。
 author: WeiYun0912
 og:title: React Protected Routes
-og:description: 1。
+og:description: 今天要來介紹如何使用 React Router 來實作 Protected Routes，意思是我們可以將 Route 設定權限，當使用者登入時或具備某些權限才能夠訪問該 Route (頁面)。
 ---
 
 ## 安裝
@@ -48,7 +48,7 @@ src
 
 基本的 Router 定義就先不介紹，因為主要是 focus 在 Protected Routes 的部分。
 
-首先在 App.js 引入了 4 個頁面和一個 component。
+首先在 App.js 引入了 4 個頁面和 1 個 component。
 
 頁面的部分一共有 4 個檔案，分別是 Home、Login、Dashboard、Accounts。
 

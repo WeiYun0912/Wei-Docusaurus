@@ -25,6 +25,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-09：新增 React 使用 Google 帳號登入網站 文章。
 - 2022-10-09：新增 React Protected Routes 文章。
 - 2022-10-07：新增 React 常用的 JavaScript 語法 - 可選鏈 文章。
 - 2022-10-07：新增 React 常用的 JavaScript 語法 - 物件 文章。
