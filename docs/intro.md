@@ -25,6 +25,11 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-10：新增 Figma 常用快捷鍵 文章。
+- 2022-10-10：新增 使用 VS Code 進行 Debug (JavaScript) 文章。
+- 2022-10-10：新增 調整 Scroller Bar 的樣式 文章。
+- 2022-10-10：新增 使用 Smooth 來讓滾動軸更滑順 文章。
+- 2022-10-10：新增 使用 Columns 調整電腦與手機的網頁畫面 文章。
 - 2022-10-09：新增 React 使用 Google 帳號登入網站 文章。
 - 2022-10-09：新增 React Protected Routes 文章。
 - 2022-10-07：新增 React 常用的 JavaScript 語法 - 可選鏈 文章。
