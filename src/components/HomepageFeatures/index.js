@@ -11,8 +11,8 @@ const FeatureList = [
     imgSrc: WebDevelopment,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        veritatis ratione dolores, quia ut nulla enim dolor animi illo eius?
       </>
     ),
   },
@@ -21,8 +21,8 @@ const FeatureList = [
     imgSrc: MobileDevelopment,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        veritatis ratione dolores, quia ut nulla enim dolor animi illo eius?
       </>
     ),
   },
@@ -31,8 +31,8 @@ const FeatureList = [
     imgSrc: Blockchain,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        veritatis ratione dolores, quia ut nulla enim dolor animi illo eius?
       </>
     ),
   },
