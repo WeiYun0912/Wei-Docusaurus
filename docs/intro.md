@@ -25,6 +25,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-12：新增 使用 Intersection Observer API 實作 Infinite Scroll 與 Lazy Loading 文章。
 - 2022-10-10：新增 Figma 常用快捷鍵 文章。
 - 2022-10-10：新增 使用 VS Code 進行 Debug (JavaScript) 文章。
 - 2022-10-10：新增 調整 Scroller Bar 的樣式 文章。
