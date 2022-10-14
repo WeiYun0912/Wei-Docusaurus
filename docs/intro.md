@@ -25,6 +25,11 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+import Link from "@docusaurus/Link";
+
+<Link to="/docs/React/React-Icons"></Link>
+
+- 2022-10-12：新增 <Link to="/docs/React/React-Icons">React Icons</Link> 文章。
 - 2022-10-12：新增 使用 Intersection Observer API 實作 Infinite Scroll 與 Lazy Loading 文章。
 - 2022-10-10：新增 Figma 常用快捷鍵 文章。
 - 2022-10-10：新增 使用 VS Code 進行 Debug (JavaScript) 文章。
