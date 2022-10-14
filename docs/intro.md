@@ -27,7 +27,8 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
-- 2022-10-12：新增 <Link to="/docs/React/React-Icons">React Icons</Link> 文章。
+- 2022-10-15：新增 <Link to="/docs/React/React-RTK-Query">React 使用 RTK Query 來獲取 API 資料</Link> 文章。
+- 2022-10-14：新增 <Link to="/docs/React/React-Icons">React Icons</Link> 文章。
 - 2022-10-12：新增 <Link to="/docs/JavaScript/intersectionObserver">使用 Intersection Observer API 實作 Infinite Scroll 與 Lazy Loading</Link> 文章。
 - 2022-10-10：新增 <Link to="/docs/Others/figmaShortcut">Figma 常用快捷鍵</Link> 文章。
 - 2022-10-10：新增 <Link to="/docs/VS%20Code/vsCodeDebug">使用 VS Code 進行 Debug (JavaScript)</Link> 文章。
