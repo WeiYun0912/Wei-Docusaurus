@@ -40,7 +40,7 @@ src
 
 ## 說明
 
-在 <Link to="/docs/React/Redux-Toolkit">這篇文章</Link> 的最後有提到，如果要使用 Redux Toolkit 的 slice 實作 async await 去取得 API 資料的話，會需要自訂一個 action creator，在 action creator 裡面還需要使用到 dispatch，這是一件不太方便的事情。
+在 <Link to="/docs/React/Package/Redux-Toolkit">這篇文章</Link> 的最後有提到，如果要使用 Redux Toolkit 的 slice 實作 async await 去取得 API 資料的話，會需要自訂一個 action creator，在 action creator 裡面還需要使用到 dispatch，這是一件不太方便的事情。
 
 所以 Redux Toolkit 有提供一套解決方法給我們使用，叫做 Redux Toolkit Query，以下簡稱 RTK Query。
 
