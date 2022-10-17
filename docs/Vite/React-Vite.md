@@ -24,7 +24,7 @@ sidebar_position: 1
 
 Vite 為 Vue 社群提供的打包工具，它的特色就是非常的快，但 Vite 並不是只能使用在 Vue，它也支援原生 JS、React、Svelete 等網頁 Library 和 Framework 的打包。
 
-Vite 與 Webpack 最大的差異為 Vite 是直接將程式原始碼交給瀏覽器去處理，略過了 Webpack 打包編譯的部分，且 Vite 是由 Go 語言所開發而成，另外，不同於 Webpakc，在啟動 Vite 時，會直接開啟 Dev Server，並不會將檔案編譯打包後才啟動。
+Vite 與 Webpack 最大的差異為 Vite 是直接將程式原始碼交給瀏覽器去處理，略過了 Webpack 打包編譯的部分，且 Vite 是使用 esBuild 來打包檔案，並由 Go 語言所開發而成，另外，不同於 Webpack，在啟動 Vite 時，會直接開啟 Dev Server，並不會將檔案編譯打包後才啟動。
 
 而當我們去訪問頁面時，Vite 會根據我們請求的頁面模組(module)進行即時編譯，再將結果回傳給我們，這也是為什麼兩者打包工具之間的速度會有較大的差異。
 
