@@ -15,13 +15,17 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 筆記類別：
 
+- <Link to="/docs/category/react">React</Link>
+- <Link to="/docs/category/react-native">React Native</Link>
+- <Link to="/docs/category/puppeteer">Puppeteer</Link>
 - <Link to="/docs/category/blockchain">Blockchain</Link>
 - <Link to="/docs/category/graphql">GraphQL</Link>
 - <Link to="/docs/category/mongodb">MongoDB</Link>
-- <Link to="/docs/category/puppeteer">Puppeteer</Link>
-- <Link to="/docs/category/react">React</Link>
-- <Link to="/docs/category/react-native">React Native</Link>
+- <Link to="/docs/category/css--javascript">CSS & JavaScript</Link>
 - <Link to="/docs/category/vs-code">VS Code</Link>
+- <Link to="/docs/category/css">CSS</Link>
+- <Link to="/docs/category/vite">Vite</Link>
+- <Link to="/docs/category/others">Others</Link>
 
 持續更新中...
 
@@ -31,6 +35,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-17：新增 <Link to="/docs/Vite/React-Vite">使用 Vite 快速建立 React 專案</Link> 文章。
 - 2022-10-16：新增 <Link to="/docs/React/Hooks/React-useImperativeHandle">React useImperativeHandle</Link> 文章。
 - 2022-10-16：新增 <Link to="/docs/React/Hooks/React-useLayoutEffect">React useLayoutEffect</Link> 文章。
 - 2022-10-15：新增 <Link to="/docs/React/Package/React-RTK-Query">React 使用 RTK Query 來獲取 API 資料</Link> 文章。
