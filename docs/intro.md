@@ -35,6 +35,8 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-17：新增 <Link to="/docs/Vite/Vite-Github-Pages">將 Vite 專案部署至 Github Pages</Link> 文章。
+- 2022-10-17：新增 <Link to="/docs/Vite/Vite-Alias">Vite Alias</Link> 文章。
 - 2022-10-17：新增 <Link to="/docs/Vite/React-Vite">使用 Vite 快速建立 React 專案</Link> 文章。
 - 2022-10-16：新增 <Link to="/docs/React/Hooks/React-useImperativeHandle">React useImperativeHandle</Link> 文章。
 - 2022-10-16：新增 <Link to="/docs/React/Hooks/React-useLayoutEffect">React useLayoutEffect</Link> 文章。
