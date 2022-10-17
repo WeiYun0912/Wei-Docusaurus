@@ -65,7 +65,7 @@ sayHi();
 
 那箭頭函式呢?
 
-注意到我們是使用 const(或 let)，來宣告箭頭函式的，在 JavaScript 裡，const 和 let 是不會被 Hoisting 的，所以在執行以下程式碼時才會有錯誤出現。
+注意到我們是使用 const(或 let)，來宣告箭頭函式的，在 JavaScript 裡，const 和 let 的 Hoisting 和 var 跟 function 不同，所以在執行以下程式碼時才會有錯誤出現。
 
 ```js name="index.js" showLineNumbers
 // 無法成功執行 出現錯誤
