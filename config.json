@@ -1,6 +1,6 @@
 {
-  "index_name": "docusaurus-2",
-  "sitemap_urls": ["http://localhost:3000/sitemap.xml"],
+  "index_name": "wei_Docusaurus",
+  "sitemap_urls": ["https://weiyun0912.github.io/Wei-Docusaurus/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": ["/tests"],
   "selectors": {
