@@ -4,8 +4,8 @@
   <ShortName>Wei Site</ShortName>
   <Description>Search Wei Site</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://github.com/Wei-Docusaurus/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://github.com/Wei-Docusaurus/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://github.com/Wei-Docusaurus/opensearch.xml" />
-  <moz:SearchForm>https://github.com/Wei-Docusaurus/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://weiyun0912.github.io/Wei-Docusaurus/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://weiyun0912.github.io/Wei-Docusaurus/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://weiyun0912.github.io/Wei-Docusaurus/opensearch.xml" />
+  <moz:SearchForm>https://weiyun0912.github.io/Wei-Docusaurus/</moz:SearchForm>
 </OpenSearchDescription>
