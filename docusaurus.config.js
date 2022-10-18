@@ -59,6 +59,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        apiKey: "255eae2f93f671afbe649b9789a64cbc",
+        indexName: "wei_Docusaurus",
+        contextualSearch: true,
+        placeholder: "Search...",
+        appId: "DHOQKM934H",
+      },
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
