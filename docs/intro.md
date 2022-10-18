@@ -25,6 +25,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 - <Link to="/docs/category/vs-code">VS Code</Link>
 - <Link to="/docs/category/css">CSS</Link>
 - <Link to="/docs/category/vite">Vite</Link>
+- <Link to="/docs/category/docusaurus">Docusaurus</Link>
 - <Link to="/docs/category/others">Others</Link>
 
 持續更新中...
@@ -35,6 +36,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-19：新增 <Link to="/docs/Docusaurus/Algolia">在 Docusaurus 中使用 Algolia 實作搜尋功能</Link> 文章。
 - 2022-10-17：新增 <Link to="/docs/Vite/Vite-Github-Pages">將 Vite 專案部署至 Github Pages</Link> 文章。
 - 2022-10-17：新增 <Link to="/docs/Vite/Vite-Alias">Vite Alias</Link> 文章。
 - 2022-10-17：新增 <Link to="/docs/Vite/React-Vite">使用 Vite 快速建立 React 專案</Link> 文章。
