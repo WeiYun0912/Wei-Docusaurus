@@ -1,6 +1,6 @@
 ---
 title: 在 Docusaurus 中使用 Algolia 實作搜尋功能
-keywords: [react, Docusaurus, docusaurus, Algolia, algolia]
+keywords: [react, Docusaurus, docusaurus, docusaurus 教學, Algolia, algolia]
 description: 這篇主要是要來介紹如何在 Docusaurus 中去使用 Algolia 搜尋我們的文章以及文章內的文字，讓使用者能夠在我們的 Docusaurus 搜尋關鍵字找到自己要的文章。
 author: WeiYun0912
 og:title: 在 Docusaurus 中使用 Algolia 實作搜尋功能
