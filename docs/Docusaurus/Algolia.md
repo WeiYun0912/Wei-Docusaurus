@@ -8,6 +8,8 @@ og:description: 這篇主要是要來介紹如何在 Docusaurus 中去使用 Alg
 sidebar_position: 1
 ---
 
+[影片連結](https://www.youtube.com/watch?v=cykGdsbe6f0&ab_channel=WeiWei)
+
 這篇主要是要來介紹如何在 Docusaurus 中去使用 Algolia 搜尋我們的文章以及文章內的文字，讓使用者能夠在我們的 Docusaurus 搜尋關鍵字找到自己要的文章。
 
 文章已經先將 Docusaurus 專案部署至 Github Page，因為我的作業環境是 Windows，比較難在本地端用 ip 進行測試，所以文章後面的 Demo 是使用 Github Page 來示範。
@@ -172,7 +174,7 @@ winpty docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tos
 ![Image](https://i.imgur.com/aIAgnBt.png)
 
 :::note
-因為我是 Windows 作業環境，所以預設的 CMD 沒有 cat 指令，所以用 Git Bash 取代。
+因為我是 Windows 作業環境，預設的 CMD 沒有 cat 指令，所以用 Git Bash 取代。
 :::
 
 接著回到 Algolia 的後台，在 Search 頁面中，可以看到我們的網站內容被新增成功了。

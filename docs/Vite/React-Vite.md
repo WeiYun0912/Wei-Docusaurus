@@ -8,13 +8,15 @@ og:description: 當一個專案的檔案數量太多時，使用 cra 開啟 serv
 sidebar_position: 1
 ---
 
+[影片連結](https://www.youtube.com/watch?v=L2st9fjYjZM&t=3s&ab_channel=WeiWei)
+
 ## 說明
 
 以往在學習 React 時，總是會使用 `create-react-app` 簡稱 cra，來建立我們的 React 專案，使用 cra 的好處在於，許多的設定不用自己去調整，像是 Hot Module Replacement(HMR)、Babel 轉譯等。
 
 但是當一個專案的檔案數量太多時，使用 cra 開啟 server 的速度就會變得非常慢，在 HMR 的速度上也會受影響。
 
-這是因為 cra 的打包工具是使用 Webpack，而 Webpack 的運作方式為，先將檔案進行打包編譯，在啟動 Dev Server(開發伺服器)，當我們去請求 Server 時，伺服器會直接給予打包後的結果。
+這是因為 cra 的打包工具是使用 Webpack，而 Webpack 的運作方式為，先將檔案進行打包編譯，在啟動 Dev Server(開發伺服器)，當我們去請求 Server 時，Server 會直接給予打包後的結果。
 
 這也是為什麼只要當檔案數量一多起來，Webpack 速度就逐漸變緩慢的原因，因為要打包的檔案太多了。
 
