@@ -36,6 +36,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-20：新增 <Link to="/docs/Docusaurus/Docusaurus-Github">將 Docusaurus 專案部署至 Github Page</Link> 文章。
 - 2022-10-19：新增 <Link to="/docs/React/Tips/React-Search">React 初學者常犯的錯誤 - 搜尋陣列資料</Link> 文章。
 - 2022-10-19：新增 <Link to="/docs/Docusaurus/Algolia">在 Docusaurus 中使用 Algolia 實作搜尋功能</Link> 文章。
 - 2022-10-17：新增 <Link to="/docs/Vite/Vite-Github-Pages">將 Vite 專案部署至 Github Pages</Link> 文章。
