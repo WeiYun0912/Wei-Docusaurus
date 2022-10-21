@@ -93,5 +93,31 @@ export const largeBox = () => <Box />;
 
 ![Image](https://i.imgur.com/Z2F4bax.png)
 
-
 ## 施工中 🚧
+
+## Chromatic
+
+```yml title="chromatic.yml"
+# Workflow name
+name: "Chromatic Deployment"
+
+# Event for the workflow
+on: push
+
+# List of jobs
+jobs:
+  test:
+    # Operating System
+    runs-on: ubuntu-latest
+    # Job steps
+    steps:
+      - uses: actions/checkout@v1
+      - run: yarn
+        #👇 Adds Chromatic as a step in the workflow
+      - uses: chromaui/action@v1
+        # Options required for Chromatic's GitHub Action
+        with:
+          #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+```
