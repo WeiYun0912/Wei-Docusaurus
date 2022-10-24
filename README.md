@@ -10,7 +10,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 筆記類別：
 
-- <a href="https://weiyun0912.github.io/Wei-Docusaurus/docs/category/react">React</a>
+- <a href="https://weiyun0912.github.io/Wei-Docusaurus/docs/category/react" target="_blank">React</a>
 - <Link to="/docs/category/react-native">React Native</Link>
 - <Link to="/docs/category/puppeteer">Puppeteer</Link>
 - <Link to="/docs/category/blockchain">Blockchain</Link>
