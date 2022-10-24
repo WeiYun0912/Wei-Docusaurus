@@ -22,6 +22,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 - <Link to="/docs/category/graphql">GraphQL</Link>
 - <Link to="/docs/category/mongodb">MongoDB</Link>
 - <Link to="/docs/category/css--javascript">CSS & JavaScript</Link>
+- <Link to="/docs/category/storybook">Storybook</Link>
 - <Link to="/docs/category/vs-code">VS Code</Link>
 - <Link to="/docs/category/css">CSS</Link>
 - <Link to="/docs/category/vite">Vite</Link>
@@ -36,6 +37,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2022-10-24：新增 <Link to="/docs/Stroybook/Storybook-Basic">Storybook 介紹與實作</Link> 文章。
 - 2022-10-20：新增 <Link to="/docs/Docusaurus/Docusaurus-Github">將 Docusaurus 專案部署至 Github Page</Link> 文章。
 - 2022-10-19：新增 <Link to="/docs/React/Tips/React-Search">React 初學者常犯的錯誤 - 搜尋陣列資料</Link> 文章。
 - 2022-10-19：新增 <Link to="/docs/Docusaurus/Algolia">在 Docusaurus 中使用 Algolia 實作搜尋功能</Link> 文章。
