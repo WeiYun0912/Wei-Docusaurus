@@ -7,6 +7,8 @@ og:title: React 使用 Lazy 與 Suspense 動態載入 Component
 og:description: 如果我們網站 Component 非常多，有些 Component 可能使用者不會常去使用到，但使用者進到網站時一樣會載入該 Component，這時候就可以使用 lazy 和 suspense 來達到動態載入 Component 的功能，
 ---
 
+[影片連結](https://www.youtube.com/watch?v=CPFutYbNamA)
+
 當我們使用 React 開發網站時，一進入到網站，React 就會將我們所有用到的 Component 給載入進來。
 
 舉例來說，我們現在有三個 Component，分別是：`Home`、`Items`、`About`。

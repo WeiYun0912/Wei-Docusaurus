@@ -37,7 +37,8 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
-- 2022-10-24：新增 <Link to="/docs/React/Tips/React-Lazy">React 使用 Lazy 與 Suspense 動態載入 Component</Link> 文章。
+- 2022-10-28：新增 <Link to="/docs/VS%20Code/vsCodeExtensions">實用的 VS Code 套件 (網頁開發)</Link> 文章。
+- 2022-10-27：新增 <Link to="/docs/React/Tips/React-Lazy">React 使用 Lazy 與 Suspense 動態載入 Component</Link> 文章。
 - 2022-10-24：新增 <Link to="/docs/Stroybook/Storybook-Basic">Storybook 介紹與實作</Link> 文章。
 - 2022-10-20：新增 <Link to="/docs/Docusaurus/Docusaurus-Github">將 Docusaurus 專案部署至 Github Page</Link> 文章。
 - 2022-10-19：新增 <Link to="/docs/React/Tips/React-Search">React 初學者常犯的錯誤 - 搜尋陣列資料</Link> 文章。
