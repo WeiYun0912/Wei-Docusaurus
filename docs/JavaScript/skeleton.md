@@ -96,6 +96,48 @@ Skeleton 的效果如下圖：
     background-color: hsl(200, 20%, 95%);
   }
 }
+
+/* ------------以上為skeleton動畫的部分------------ */
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 1rem;
+}
+
+.card {
+  background-color: blue;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.header {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  word-wrap: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex-grow: 1;
+}
 ```
 
 ## 載入內容
