@@ -23,8 +23,7 @@ import style from "./styles.module.css"
   font-size: 5em;
   background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
-  background-clip: text; /* 2021/10/06 only work on edge and firefox*/
-  -webkit-background-clip: text; /* so need to add webkit prefix */
+  background-clip: text; 
   background-position: center center;
   color: transparent;
 }
