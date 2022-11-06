@@ -20,8 +20,8 @@ function App() {
   const inputRef = useRef(null);
 
   const addItem = () => {
-    let value = inputRef.current.value;
-    setItems((prev) => [...prev, value]);
+    const searchText = inputRef.current.value;
+    setItems((prev) => [...prev, searchText]);
   };
 
   return (
@@ -50,15 +50,15 @@ function App() {
   const inputRef = useRef(null);
 
   const addItem = () => {
-    let value = inputRef.current.value;
-    setItems((prev) => [...prev, value]);
+    const searchText = inputRef.current.value;
+    setItems((prev) => [...prev, searchText]);
   };
 
   const searchItem = (e) => {
-    const value = e.target.value;
+    const searchText = e.target.value;
     setItems((prev) => {
       return prev.filter((item) =>
-        item.toLowerCase().includes(value.toLowerCase())
+        item.toLowerCase().includes(searchText.toLowerCase())
       );
     });
   };
@@ -87,10 +87,10 @@ function App() {
 
 ```jsx title='App.js' showLineNumbers {4,5}
 const searchItem = (e) => {
-  const value = e.target.value;
+  const searchText = e.target.value;
   setItems((prev) => {
     return prev.filter((item) =>
-      item.toLowerCase().includes(value.toLowerCase())
+      item.toLowerCase().includes(searchText.toLowerCase())
     );
   });
 };
@@ -109,15 +109,17 @@ function App() {
   const inputRef = useRef(null);
 
   const addItem = () => {
-    let value = inputRef.current.value;
-    setItems((prev) => [...prev, value]);
-    setFilteredItems((prev) => [...prev, value]);
+    const searchText = inputRef.current.value;
+    setItems((prev) => [...prev, searchText]);
+    setFilteredItems((prev) => [...prev, searchText]);
   };
 
   const searchItem = (e) => {
-    const value = e.target.value;
+    const searchText = e.target.value;
     setFilteredItems(
-      items.filter((item) => item.toLowerCase().includes(value.toLowerCase()))
+      items.filter((item) =>
+        item.toLowerCase().includes(searchText.toLowerCase())
+      )
     );
   };
 
@@ -146,15 +148,17 @@ const [items, setItems] = useState([]);
 const [filteredItems, setFilteredItems] = useState([]);
 
 const addItem = () => {
-  let value = inputRef.current.value;
-  setItems((prev) => [...prev, value]);
-  setFilteredItems((prev) => [...prev, value]);
+  let searchText = inputRef.current.value;
+  setItems((prev) => [...prev, searchText]);
+  setFilteredItems((prev) => [...prev, searchText]);
 };
 
 const searchItem = (e) => {
-  const value = e.target.value;
+  const searchText = e.target.value;
   setFilteredItems(
-    items.filter((item) => item.toLowerCase().includes(value.toLowerCase()))
+    items.filter((item) =>
+      item.toLowerCase().includes(searchText.toLowerCase())
+    )
   );
 };
 ```
@@ -181,8 +185,8 @@ function App() {
   );
 
   const addItem = () => {
-    let value = inputRef.current.value;
-    setItems((prev) => [...prev, value]);
+    const searchText = inputRef.current.value;
+    setItems((prev) => [...prev, searchText]);
   };
 
   return (
@@ -221,8 +225,8 @@ function App() {
   }, [items, query]);
 
   const addItem = () => {
-    let value = inputRef.current.value;
-    setItems((prev) => [...prev, value]);
+    const searchText = inputRef.current.value;
+    setItems((prev) => [...prev, searchText]);
   };
 
   console.log("rerender");
