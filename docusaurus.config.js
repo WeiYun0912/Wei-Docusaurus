@@ -67,6 +67,7 @@ const config = {
         placeholder: "Search...",
         appId: "DHOQKM934H",
       },
+      metadata: [{ name: "robots", content: "max-image-preview:large" }],
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
