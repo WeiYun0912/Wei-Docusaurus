@@ -46,6 +46,12 @@ Vite requires Node.js version 14.18+, 16+. However, some templates require a hig
 npm create vite@latest 你的專案名稱 -- --template react
 ```
 
+如果是要建立 TypeScript 專案的話，改成以下指令：
+
+```
+npm init vite@latest 你的專案名稱 -- --template react-ts
+```
+
 之後再切換到專案目錄並執行以下指令，這邊就可以開始感受使用 Vite 建立 React 專案有多快速了。
 
 ```
