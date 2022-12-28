@@ -1,9 +1,9 @@
 ---
-title: "React Router v6 簡易介紹"
-keywords: [react, react教學, react router v6]
+title: "React Router DOM v5 與 v6 之差異介紹"
+keywords: [react, react教學, react router dom v6, react-router-dom v6]
 description: 介紹 React Router v6 與 v5 之間的差異
 author: WeiYun0912
-og:title: React Router v6 簡易介紹
+og:title: React Router DOM v5 與 v6 之差異介紹
 og:description: 介紹 React Router v6 與 v5 之間的差異。
 ---
 
