@@ -1,10 +1,10 @@
 ---
 title: React Router DOM v6 介紹
 keywords: [react, react教學, javascript, react-router-dom, react-router]
-description: 而登入的方式我們使用彈出視窗 (signInWithPopup) 的方式，意思是點擊登入按鈕後，會有視窗彈出，詢問使用者要用哪隻 Google 帳號登入。
+description: React教學 - React Router v6 介紹 (Link、NavLink、Nested Routes、Outlet、useLocation、useRoutes、useNavigate)
 author: WeiYun0912
 og:title: React Router DOM v6 介紹
-og:description: 而登入的方式我們使用彈出視窗 (signInWithPopup) 的方式，意思是點擊登入按鈕後，會有視窗彈出，詢問使用者要用哪隻 Google 帳號登入。
+og:description: React教學 - React Router v6 介紹 (Link、NavLink、Nested Routes、Outlet、useLocation、useRoutes、useNavigate)
 ---
 
 [影片介紹](https://www.youtube.com/watch?v=gV07Tqi0i_o)
