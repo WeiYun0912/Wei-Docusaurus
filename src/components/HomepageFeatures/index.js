@@ -10,30 +10,31 @@ const FeatureList = [
     title: "網頁應用程式開發",
     imgSrc: WebDevelopment,
     description: (
-      <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        veritatis ratione dolores, quia ut nulla enim dolor animi illo eius?
-      </>
+      <p style={{ textAlign: "justify" }}>
+        目前是使用 React 來開發前端應用程式，後端的部分是
+        Node.js，大學時期是使用 PHP 框架 Codeigniter 3 (MVC)，資料庫則是使用
+        MySQL 和 MongoDB。
+      </p>
     ),
   },
   {
     title: "手機應用程式開發",
     imgSrc: MobileDevelopment,
     description: (
-      <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        veritatis ratione dolores, quia ut nulla enim dolor animi illo eius?
-      </>
+      <p style={{ textAlign: "justify" }}>
+        目前是使用 React Native 來開發手機應用程式，但使用的經驗較少，只有開發過
+        3~4 個 Side Project 。
+      </p>
     ),
   },
   {
     title: "區塊鏈應用程式開發",
     imgSrc: Blockchain,
     description: (
-      <>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-        veritatis ratione dolores, quia ut nulla enim dolor animi illo eius?
-      </>
+      <p style={{ textAlign: "justify" }}>
+        在碩士的研究領域是區塊鏈，碩士期間也使用區塊鏈技術開發了一個去中心化二手車交易與管理平台，入圍了
+        2021 第 26 屆大專校院資訊應用服務創新競賽亞太中文組。
+      </p>
     ),
   },
 ];
