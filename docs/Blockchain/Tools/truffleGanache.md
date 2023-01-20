@@ -1,5 +1,6 @@
 ---
-title: "以太坊區塊鏈開發工具 — Truffle Ganache 使用教學"
+title: "[blockchain] 以太坊區塊鏈開發工具 — Truffle Ganache 使用教學"
+keywords: [blockchain]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/Truffle-Ganache)

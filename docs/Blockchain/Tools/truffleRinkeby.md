@@ -1,5 +1,6 @@
 ---
-title: "以太坊區塊鏈開發工具 — 使用Truffle將智能合約部署至Rinkeby並驗證"
+title: "[blockchain] 以太坊區塊鏈開發工具 — 使用Truffle將智能合約部署至Rinkeby並驗證"
+keywords: [blockchain]
 ---
 
 ## 說明

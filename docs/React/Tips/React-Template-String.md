@@ -1,5 +1,5 @@
 ---
-title: "React常用的JavaScript語法 - 樣板字串"
+title: "[react] React常用的JavaScript語法 - 樣板字串"
 keywords: [react, react教學, javascript, template string]
 description: 在樣板字串還沒出現時，要在 JavaScript 串接字串是非常麻煩的事情，且也必須考慮到格式的問題。
 author: WeiYun0912

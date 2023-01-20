@@ -1,5 +1,5 @@
 ---
-title: React常用的JavaScript語法 - 物件
+title: "[react] React常用的JavaScript語法 - 物件"
 keywords: [react, react教學, javascript, objects]
 description: 我們也可以複製物件的 key 和 value 到新的物件，只要在新物件中使用其餘語法(rest syntax)即可。
 author: WeiYun0912

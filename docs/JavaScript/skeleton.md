@@ -1,5 +1,5 @@
 ---
-title: 使用 Skeleton 增加使用者體驗
+title: "[javascript] 使用 Skeleton 增加使用者體驗"
 keywords: [CSS, css, skeleton]
 description: 假設網頁需要在一開始載入過大的內容，導致網頁畫面渲染過久，使內容無法第一時間呈現給使用者，這就會降低使用者體驗，所以許多網頁在載入資源時會使用 Skeleton，避免使用者看到的畫面是空白的網頁。
 author: WeiYun0912

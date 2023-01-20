@@ -1,5 +1,5 @@
 ---
-title: React Redux Toolkit 教學
+title: "[react] React Redux Toolkit 教學"
 keywords: [react, react教學, redux toolkit]
 description: 這篇是要來教如何使用Redux Toolkit，和以往不同，Redux Toolkit 簡化了許多。
 author: WeiYun0912

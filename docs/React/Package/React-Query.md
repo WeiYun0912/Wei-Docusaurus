@@ -1,5 +1,5 @@
 ---
-title: React Query 教學
+title: "[react] React Query 教學"
 keywords: [react, react hook, react教學, react query]
 description: React 在 data fetch 上是較不方便的，不依靠第三方工具來處理資料的話，以下的功能需經過複雜的處理才有辦法達成。
 author: WeiYun0912

@@ -1,5 +1,6 @@
 ---
-title: "Data Location"
+title: "[solidity] Data Location"
+keywords: [solidity]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/SmartContracts/tree/main/Features/Data%20Location)

@@ -1,5 +1,6 @@
 ---
-title: "爬蟲與瀏覽器自動化的好幫手 — Puppeteer"
+title: "[puppeteer] 爬蟲與瀏覽器自動化的好幫手 — Puppeteer"
+keywords: [puppeteer]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/Puppeteer-Grab-Pngimg-Pictures)

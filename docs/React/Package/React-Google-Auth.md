@@ -1,5 +1,5 @@
 ---
-title: React 使用 Google 帳號登入網站
+title: "[react] React 使用 Google 帳號登入網站"
 keywords: [react, react教學, javascript, firebase, google auth]
 description: 而登入的方式我們使用彈出視窗 (signInWithPopup) 的方式，意思是點擊登入按鈕後，會有視窗彈出，詢問使用者要用哪隻 Google 帳號登入。
 author: WeiYun0912

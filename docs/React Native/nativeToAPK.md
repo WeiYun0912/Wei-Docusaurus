@@ -1,5 +1,6 @@
 ---
-title: "React Native 將專案打包成 apk 檔"
+title: "[react native] React Native 將專案打包成 apk 檔"
+keywords: [react native]
 ---
 
 # 說明

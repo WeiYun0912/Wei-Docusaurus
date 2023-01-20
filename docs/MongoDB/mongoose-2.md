@@ -1,5 +1,6 @@
 ---
-title: "MongoDB — Mongoose 介紹與使用教學 (下)"
+title: "[mongodb] MongoDB — Mongoose 介紹與使用教學 (下)"
+keywords: [mongoDB, mongoose]
 ---
 
 ## 範例資料

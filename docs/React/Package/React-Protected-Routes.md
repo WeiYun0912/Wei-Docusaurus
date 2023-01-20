@@ -1,5 +1,5 @@
 ---
-title: "React Protected Routes"
+title: "[react] React Protected Routes"
 keywords: [react, react教學, react protected routes]
 description: 今天要來介紹如何使用 React Router 來實作 Protected Routes，意思是我們可以將 Route 設定權限，當使用者登入時或具備某些權限才能夠訪問該 Route (頁面)。
 author: WeiYun0912

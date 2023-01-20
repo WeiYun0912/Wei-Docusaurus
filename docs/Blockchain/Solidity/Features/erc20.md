@@ -1,5 +1,6 @@
 ---
-title: "ERC20"
+title: "[solidity] ERC20"
+keywords: [solidity]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/SmartContracts/tree/main/Features/ERC20)

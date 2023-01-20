@@ -1,5 +1,5 @@
 ---
-title: React常用的JavaScript語法 - 可選鏈
+title: "[react] React常用的JavaScript語法 - 可選鏈"
 keywords: [react, react教學, javascript, optional chaining]
 description: 要是我們並不清楚取得的資料是否為物件，又使用物件取值的方式去呼叫，且沒有做任何的判斷，程式就會報出錯誤
 author: WeiYun0912

@@ -1,5 +1,5 @@
 ---
-title: 使用 Vite 快速建立 React 專案
+title: "[vite] 使用 Vite 快速建立 React 專案"
 keywords: [react, react教學, vite, cra]
 description: 當一個專案的檔案數量太多時，使用 cra 開啟 server 的速度就會變得非常慢，在 HMR 的速度上也會受影響。
 author: WeiYun0912

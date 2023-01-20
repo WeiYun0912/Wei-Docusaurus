@@ -1,5 +1,5 @@
 ---
-title: React Slick
+title: "[react] React Slick"
 keywords: [react, react-slick]
 description: React-Slick 套件能夠讓我們快速的建立輪播效果(carousel)，這篇主要介紹 slick 參數及 CSS 如何設定。
 author: WeiYun0912

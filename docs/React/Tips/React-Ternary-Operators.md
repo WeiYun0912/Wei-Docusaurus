@@ -1,5 +1,5 @@
 ---
-title: "React常用的JavaScript語法 - 三元運算子"
+title: "[react] React常用的JavaScript語法 - 三元運算子"
 keywords: [react, react教學, javascript, ternary operators]
 description: 在樣板字串還沒出現時，要在 JavaScript 串接字串是非常麻煩的事情，且也必須考慮到格式的問題。
 author: WeiYun0912

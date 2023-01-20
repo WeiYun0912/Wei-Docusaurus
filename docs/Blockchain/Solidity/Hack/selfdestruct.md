@@ -1,6 +1,6 @@
 ---
-title: "Selfdestruct"
-description: "111111"
+title: "[solidity hack] Selfdestruct"
+keywords: [solidity]
 ---
 
 ## 說明

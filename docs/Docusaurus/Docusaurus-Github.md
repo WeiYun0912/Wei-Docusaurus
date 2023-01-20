@@ -1,5 +1,5 @@
 ---
-title: 將 Docusaurus 專案部署至 Github Page
+title: "[docusaurus] 將 Docusaurus 專案部署至 Github Page"
 keywords: [react, Docusaurus, docusaurus, docusaurus 教學, github page]
 description: 在 docusaurus.config.js 檔案中，將 url 更改為 https://你的Github帳號.github.io，baseUrl 改成 /你的Github Repo名稱/。
 author: WeiYun0912

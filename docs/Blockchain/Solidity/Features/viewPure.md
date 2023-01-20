@@ -1,5 +1,6 @@
 ---
-title: "View Pure"
+title: "[solidity] View Pure"
+keywords: [solidity]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/SmartContracts/tree/main/Features/View%20Pure)

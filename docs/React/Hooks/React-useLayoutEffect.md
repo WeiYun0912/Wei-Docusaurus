@@ -1,5 +1,5 @@
 ---
-title: React useLayoutEffect
+title: "[react] React useLayoutEffect"
 keywords: [react, react hook, react教學, useLayoutEffect]
 description: useLayoutEffect 則是在 DOM 生成前就 Effect，所以可以避免上面的情況發生...
 author: WeiYun0912

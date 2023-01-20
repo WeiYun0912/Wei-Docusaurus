@@ -1,5 +1,6 @@
 ---
-title: "以太坊區塊鏈開發工具 — Hardhat Task 介紹"
+title: "[blockchain] 以太坊區塊鏈開發工具 — Hardhat Task 介紹"
+keywords: [blockchain]
 ---
 
 ## 說明

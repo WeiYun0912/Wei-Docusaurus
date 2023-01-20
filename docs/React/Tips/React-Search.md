@@ -1,5 +1,5 @@
 ---
-title: React 初學者常犯的錯誤 - 搜尋陣列資料
+title: "[react] React 初學者常犯的錯誤 - 搜尋陣列資料"
 keywords: [react, Docusaurus, docusaurus, docusaurus 教學, Algolia, algolia]
 description: 在剛開始學習 React 時，常常會被 state 搞得團團轉的，像是在 input 內輸入字串來搜尋陣列內的資料
 author: WeiYun0912

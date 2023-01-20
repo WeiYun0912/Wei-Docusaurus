@@ -1,5 +1,6 @@
 ---
-title: "Visibility (Public Private External Internal)"
+title: "[solidity] Visibility (Public Private External Internal)"
+keywords: [solidity]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/SmartContracts/tree/main/Features/Visibility)

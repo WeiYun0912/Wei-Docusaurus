@@ -1,5 +1,5 @@
 ---
-title: 將 Vite 專案部署至 Github Pages
+title: "[vite] 將 Vite 專案部署至 Github Pages"
 keywords: [react, react教學, vite, vite alias, alias]
 description: 要將 Vite 部署至 Github Page 也非常簡單，先在你要部署的專案底下安裝 gh-pages 套件。
 author: WeiYun0912

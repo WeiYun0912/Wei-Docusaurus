@@ -1,5 +1,5 @@
 ---
-title: Vite Alias
+title: "[vite] Vite Alias"
 keywords: [react, react教學, vite, vite alias, alias]
 description: 在開發專案時，要是 import 的檔案路徑太多層，可以使用 Alias 來解決此問題。
 author: WeiYun0912

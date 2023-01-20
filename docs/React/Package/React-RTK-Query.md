@@ -1,5 +1,5 @@
 ---
-title: React 使用 RTK Query 來獲取 API 資料
+title: "[react] React 使用 RTK Query 來獲取 API 資料"
 keywords: [react, react教學, react-icons]
 description: 如果要使用 Redux Toolkit 的 slice 實作 async await 去取得 API 資料的話，會需要自訂一個 action creator，在 action creator 裡面還需要使用到 dispatch，這是一件不太方便的事情。
 author: WeiYun0912

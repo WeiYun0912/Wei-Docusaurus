@@ -1,5 +1,5 @@
 ---
-title: Storybook 介紹與實作
+title: "[storybook] Storybook 介紹與實作"
 keywords: [react, react教學, storybook]
 description: 今天如果是想要看到的是各個元件之間，或是畫面的變化，例如：按鈕樣式、頁面樣式等，就可以使用 Storybook，來講述你元件與畫面的故事。
 author: WeiYun0912

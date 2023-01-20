@@ -1,5 +1,6 @@
 ---
-title: "Structs"
+title: "[solidity] Structs"
+keywords: [solidity]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/SmartContracts/tree/main/Features/Structs)

@@ -1,5 +1,6 @@
 ---
-title: "利用 keccak256 hash function 來為使用者分配角色權限"
+title: "[solidity] 利用 keccak256 hash function 來為使用者分配角色權限"
+keywords: [solidity]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/SmartContracts/tree/main/Features/Access%20Control)

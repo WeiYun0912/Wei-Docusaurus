@@ -1,5 +1,5 @@
 ---
-title: React 使用 Lazy 與 Suspense 動態載入 Component
+title: "[react] React 使用 Lazy 與 Suspense 動態載入 Component"
 keywords: [react, react教學, lazy, suspense]
 description: 如果我們網站 Component 非常多，有些 Component 可能使用者不會常去使用到，但使用者進到網站時一樣會載入該 Component，這時候就可以使用 lazy 和 suspense 來達到動態載入 Component 的功能，
 author: WeiYun0912

@@ -1,5 +1,6 @@
 ---
-title: "以太坊區塊鏈開發工具 — 使用Hardhat對智能合約進行測試與部署"
+title: "[blockchain] 以太坊區塊鏈開發工具 — 使用Hardhat對智能合約進行測試與部署"
+keywords: [blockchain]
 ---
 
 [Github 連結](https://github.com/WeiYun0912/Hardhat)

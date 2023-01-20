@@ -1,5 +1,6 @@
 ---
-title: GraphQL 與 Apollo Server 使用教學 Part 2
+title: "[graphql] GraphQL 與 Apollo Server 使用教學 Part 2"
+keywords: [graphql]
 ---
 
 [影片講解 Part 1](https://www.youtube.com/watch?v=1GC4tPj-IjE)

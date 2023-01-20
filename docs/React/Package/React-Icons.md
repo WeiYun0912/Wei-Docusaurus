@@ -1,5 +1,5 @@
 ---
-title: React Icons
+title: "[react] React Icons"
 keywords: [react, react教學, react-icons]
 description: React Icons 是一款熱門的 Icon 套件，它將各大 Icon Library 彙整在一起，讓我們在 React 專案內可以很快速的挑選想要的 Icon，也可以針對 Icon 的大小即顏色進行調整。
 author: WeiYun0912

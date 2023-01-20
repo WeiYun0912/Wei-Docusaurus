@@ -1,5 +1,5 @@
 ---
-title: React Router DOM v6 介紹
+title: "[react] React Router DOM v6 介紹"
 keywords: [react, react教學, javascript, react-router-dom, react-router]
 description: React教學 - React Router v6 介紹 (Link、NavLink、Nested Routes、Outlet、useLocation、useRoutes、useNavigate)
 author: WeiYun0912

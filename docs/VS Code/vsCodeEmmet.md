@@ -1,5 +1,5 @@
 ---
-title: "VS Code Emmet使用教學"
+title: "[vscode] VS Code Emmet使用教學"
 ---
 
 [影片連結](https://www.youtube.com/watch?v=EOFL8NJUlf8&ab_channel=WeiWei)

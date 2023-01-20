@@ -1,5 +1,5 @@
 ---
-title: 使用 VS Code 進行 Debug (JavaScript)
+title: "[vscode] 使用 VS Code 進行 Debug (JavaScript)"
 keywords: [vscode, vscode debug, debug, live server]
 description: 但如果只有單螢幕的話要把畫面切來切去 Debug，這會非常麻煩，所以我們可以直接用 VSCode 提供的 Debug 功能。
 author: WeiYun0912

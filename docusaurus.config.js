@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Wei Site",
+  title: "WeiWei 的前端程式教學與筆記",
   // staticDirectories: ["static"],
   tagline: "Wei Site",
   // url: "https://github.com",
@@ -26,8 +26,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "zh-Hant",
+    locales: ["zh-Hant"],
   },
   themes: ["@docusaurus/theme-live-codeblock"],
 

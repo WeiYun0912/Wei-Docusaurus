@@ -1,5 +1,5 @@
 ---
-title: 實用的 VS Code 套件 (網頁開發)
+title: "[vscode] 實用的 VS Code 套件 (網頁開發)"
 keywords: [vscode, vscode extensions, extensions]
 description: 實用的 VS Code 套件 (網頁開發)
 author: WeiYun0912

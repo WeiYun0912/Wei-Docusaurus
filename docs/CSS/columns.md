@@ -1,5 +1,5 @@
 ---
-title: 使用 Columns 調整電腦與手機的網頁畫面
+title: "[css] 使用 Columns 調整電腦與手機的網頁畫面"
 keywords: [CSS, css, columns]
 description: flex 和 grid 讓我們能夠很簡單的去設定 RWD，讓網頁在電腦或手機畫面上都不會跑版，以 flex 來舉例。
 author: WeiYun0912
