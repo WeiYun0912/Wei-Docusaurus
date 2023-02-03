@@ -67,7 +67,13 @@ const config = {
         placeholder: "Search...",
         appId: "DHOQKM934H",
       },
-      metadata: [{ name: "robots", content: "max-image-preview:large" }],
+      metadata: [
+        { name: "robots", content: "max-image-preview:large" },
+        {
+          name: "google-site-verification",
+          content: "VX8z24uxBmMEFgahr7WrkZnwoob8dsilOzb6w4r8k5k",
+        },
+      ],
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
