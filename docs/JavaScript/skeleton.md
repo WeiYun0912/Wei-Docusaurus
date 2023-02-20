@@ -22,7 +22,7 @@ Skeleton 的效果如下圖：
 
 首先先定義最基本的 HTML 結構，這邊會使用 `template` 標籤先自訂一個樣板和一個`div`標籤，該 div 標籤會拷貝 template 標籤內的結構。
 
-而製作 Skeleton 其實就只是將原本需載入內容的容器加上載入的動畫而已，以下 HTML 結構有加上 skeleton 的都是待會會在 css 設置動畫的 class，其餘 css 的部分就不多贅述。
+製作 Skeleton 其實就只是將原本需載入內容的容器加上載入的動畫而已，以下 HTML 結構有加上 skeleton 的都是待會會在 css 設置動畫的 class，其餘 css 的部分就不多贅述。
 
 ```html title='index.html' showLineNumbers
 <!DOCTYPE html>
