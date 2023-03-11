@@ -89,9 +89,9 @@ const NotFound = () => {
 export default NotFound;
 ```
 
-## BroswerRouter
+## BrowserRouter
 
-接著在 `main.jsx` 中，引入 `BroswerRouter`，將整個 Application 包起來，會在 main 引入 BroswerRouter 的原因是因為，後面會用到 useRoutes，如果不把 BroswerRouter 包在上層的話會出錯。
+接著在 `main.jsx` 中，引入 `BrowserRouter`，將整個 Application 包起來，會在 main 引入 BrowserRouter 的原因是因為，後面會用到 useRoutes，如果不把 BrowserRouter 包在上層的話會出錯。
 
 ```jsx title='main.jsx' showLineNumbers
 import React from "react";
