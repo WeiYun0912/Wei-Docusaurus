@@ -9,20 +9,25 @@ og:description: React教學 - React Router v6.4 介紹 (loader、useNavigation�
 
 import CenterImage from "@site/src/components/mdHelper/CenterImage";
 
-## 資料夾與檔案結構
+## 資料夾與檔案結構 (建議先將檔案建好)
 
 ```
 src
 |   App.js
 |   ...
+|
 └─── components
 │   │   MainNavigation.jsx
 |   |   ProductItems.jsx
 |   |   ProductList.jsx
+|   |   ProductForm.jsx
+|   |   ProductDeferTest.jsx
 │
 └─── pages
 │   │   Error.jsx
 │   │   Home.jsx
+│   │   ProductAction.jsx
+│   │   ProductRoot.jsx
 │   │   ProductDetail.jsx
 │   │   Products.jsx
 │   │   Root.jsx
