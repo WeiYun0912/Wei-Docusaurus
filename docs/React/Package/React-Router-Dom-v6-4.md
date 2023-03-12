@@ -1,10 +1,10 @@
 ---
-title: "[react] React Router DOM v6.4 介紹"
+title: "[react] React Router DOM v6.4 詳細介紹"
 keywords: [react, react教學, javascript, react-router-dom, react-router]
-description: React教學 - React Router v6.4 介紹 (loader、useNavigation、ErrorHandling、useRouteError)
+description: React教學 - React Router v6.4 詳細介紹 (loader、useNavigation、ErrorHandling、useRouteError)
 author: WeiYun0912
-og:title: React Router DOM v6.4 介紹
-og:description: React教學 - React Router v6.4 介紹 (loader、useNavigation、ErrorHandling、useRouteError)
+og:title: React Router DOM v6.4 詳細介紹
+og:description: React教學 - React Router v6.4 詳細介紹 (loader、useNavigation、ErrorHandling、useRouteError)
 ---
 
 import CenterImage from "@site/src/components/mdHelper/CenterImage";
