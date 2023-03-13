@@ -81,8 +81,6 @@ export default HomePage;
 ```
 
 ```jsx title='pages/Products.jsx' showLineNumbers
-import React from "react";
-
 const ProductsPage = () => {
   return <div>Products</div>;
 };
@@ -314,7 +312,6 @@ export default App;
 如果想要讓使用者了解目前在哪個頁面，則可以使用 NavLink，NavLink 提供了 isActive 的屬性，當 isActive 為 true 時，代表使用者目前在該頁面，所以可以簡單做個判斷，並附上簡單的 CSS。
 
 ```jsx title='components/MainNavigation.jsx' showLineNumbers {2,10-20,23-34}
-import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 
@@ -364,7 +361,6 @@ export default MainNavigation;
 這邊只是 Demo 用，後續不會將該程式碼新增到後面的教學。
 
 ```jsx title='pages/Home.jsx' showLineNumbers {2,5,7-9}
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const HomePage = () => {
@@ -445,7 +441,6 @@ export default ProductDetailPage;
 然後將 `Products.jsx` 中的程式碼改成以下，就完成動態 Routes 的功能了：
 
 ```jsx title='pages/Products.jsx' showLineNumbers {4-8,15-19}
-import React from "react";
 import { Link } from "react-router-dom";
 
 const PRODUCTS = [
@@ -601,7 +596,6 @@ const router = createBrowserRouter([
 要使用 loader 的話，先在 `Products.jsx` 定義它然後 export ，也順便將 `Products.jsx` 裡面的程式碼修改一下：
 
 ```jsx title='pages/Products.jsx' showLineNumbers {10-16}
-import React from "react";
 import ProductsList from "../components/ProductsList";
 
 const ProductsPage = () => {
@@ -620,8 +614,6 @@ export const loader = async () => {
 ```
 
 ```jsx title='components/ProductsList.jsx' showLineNumbers
-import React from "react";
-
 const ProductsList = () => {
   return <div>ProductsList</div>;
 };
@@ -684,7 +676,6 @@ React Router Dom 會等到 `loader 執行完`，才去渲染畫面，意思就�
 如果要取得 API 資料的話，我們可以在 `Products.jsx` 引入 `useLoaderData`。
 
 ```jsx title='pages/Products.jsx' showLineNumbers {2,6,7}
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 import ProductsList from "../components/ProductsList";
 
@@ -730,7 +721,6 @@ export const loader = async () => {
 ```
 
 ```jsx title='components/ProductsList.jsx' showLineNumbers {2,5,6}
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 
 const ProductsList = () => {
@@ -773,7 +763,6 @@ export default RootLayout;
 我們當然也可以客製化錯誤訊息，將 `Products.jsx` 的程式碼改成以下：
 
 ```jsx title='pages/Products.jsx' showLineNumbers {8-10,20-25}
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 import ProductsList from "../components/ProductsList";
 
@@ -814,7 +803,6 @@ export const loader = async () => {
 上述的客製化錯誤訊息算是比較偷懶的做法，所以我們可以使用較正式的做法，先將 `Products.jsx` 的程式碼改為以下：
 
 ```jsx title='pages/Products.jsx' showLineNumbers {17}
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 import ProductsList from "../components/ProductsList";
 
@@ -842,7 +830,6 @@ export const loader = async () => {
 再次來到 Products 頁面後，會發現這次出現的錯誤訊息是之前在 `Error.jsx` 定義的訊息。
 
 ```jsx title='pages/Error.jsx' showLineNumbers
-import React from "react";
 import MainNavigation from "../components/MainNavigation";
 
 const ErrorPage = () => {
@@ -888,7 +875,6 @@ const router = createBrowserRouter([
 現在可以再更進階一點，根據 `status code` 給予不同的錯誤訊息，將 `Products.jsx` 程式碼改為以下：
 
 ```jsx title='pages/Products.jsx' showLineNumbers {16-20}
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 import ProductsList from "../components/ProductsList";
 
@@ -917,7 +903,6 @@ export const loader = async () => {
 在 `Error.jsx` 中，使用 `useRouteError` 將錯誤資訊取出來，並做判斷來顯示不同的文字。
 
 ```jsx title='pages/Error.jsx' showLineNumbers {10-12,14-17}
-import React from "react";
 import { useRouteError } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 
@@ -958,7 +943,6 @@ export default ErrorPage;
 將 `Products.jsx` 和 `Error.jsx` 中的程式碼改為以下即可：
 
 ```jsx title='pages/Products.jsx' showLineNumbers {2,17}
-import React from "react";
 import { useLoaderData, json } from "react-router-dom";
 import ProductsList from "../components/ProductsList";
 
@@ -984,7 +968,6 @@ export const loader = async () => {
 ```
 
 ```jsx title='pages/Error.jsx' showLineNumbers {11}
-import React from "react";
 import { useRouteError } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 
@@ -1021,7 +1004,6 @@ export default ErrorPage;
 現在先將 `Products.jsx` 、 `ProductsList.jsx` 的程式碼改成以下：
 
 ```jsx title='pages/Products.jsx' showLineNumbers
-import React from "react";
 import { useLoaderData, json } from "react-router-dom";
 import ProductsList from "../components/ProductsList";
 
@@ -1073,8 +1055,6 @@ export default ProductsList;
 接著在 `components` 資料夾底下 新增 `ProductItem.jsx`，並修改 `ProductDetail.jsx` 內的程式碼：
 
 ```jsx title='components/ProductItem.jsx' showLineNumbers
-import React from "react";
-
 const ProductItem = () => {
   return <div>ProductItem</div>;
 };
@@ -1235,7 +1215,6 @@ export default App;
 接著我們可以在底下的 Child Route 使用 `useRouteLoaderData`，將 `Home.jsx` 程式碼改為以下，即可取得 Parent Route loader 回傳的值：
 
 ```jsx title='pages/Home.jsx' showLineNumbers {2,5,6}
-import React from "react";
 import { Link, useRouteLoaderData } from "react-router-dom";
 
 const HomePage = () => {
@@ -1381,7 +1360,6 @@ export default App;
 `Home.jsx` 中的程式碼也要修改一下，才能進入到 `products/add`：
 
 ```jsx title='App.jsx' showLineNumbers {13-15}
-import React from "react";
 import { Link, useRouteLoaderData } from "react-router-dom";
 
 const HomePage = () => {
@@ -1442,8 +1420,6 @@ export default ProductForm;
 要 Demo `defer` 和 `Await`的話，我們需要再新增兩個檔案，`ProductDeferTest.jsx` 和 `ProductRoot.jsx`。
 
 ```jsx title='components/ProductDeferTest.jsx' showLineNumbers
-import React from "react";
-
 const ProductDeferTest = () => {
   return <div>ProductDeferTest</div>;
 };
