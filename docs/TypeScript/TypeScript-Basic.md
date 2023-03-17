@@ -671,3 +671,29 @@ type Grades = "A" | "B" | "C" | "D" | undefined | null;
 // type onlyValidValues = "A" | "B" | "C" | "D"
 type onlyValidValues = NonNullable<Grades>;
 ```
+
+### ReturnType
+
+如果想要直接取得 Function Return 的型態又不想定義 Type 的話，可以使用 `ReturnType` 關鍵字：
+
+```ts title='src/main.ts' showLineNumbers
+//不使用 ReturnType
+type newAssign = { title: string; points: number };
+
+const createNewAssign = (title: string, points: number): newAssign => {
+  return { title, points };
+};
+```
+
+```ts title='src/main.ts' showLineNumbers
+//使用 ReturnType
+const createNewAssign = (title: string, points: number) => {
+  return { title, points };
+};
+
+// type NewAssign = {
+//     title: string;
+//     points: number;
+// }
+type NewAssign = ReturnType<typeof createNewAssign>;
+```
