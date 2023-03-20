@@ -37,6 +37,7 @@ https://www.youtube.com/channel/UCy1Q33r6POsxGTtZcOF--Fw
 
 # Logs
 
+- 2023-03-20：新增 <Link to="/docs/Tailwind/Tailwind-Setup">Tailwind CSS 環境建置與相關語法</Link> 文章。
 - 2023-03-20：新增 <Link to="/docs/Vite/React-Ts-Tailwind">使用 Vite 快速建立 React + TypeScript + Tailwind CSS 專案</Link> 文章。
 - 2023-03-19：新增 <Link to="/docs/React%20Native/expogo">React Native Expo 在手機上開發與測試應用程式 (不連到同一個 WIFI 的方法)</Link> 文章。
 - 2023-03-17：新增 <Link to="/docs/TypeScript/TypeScript-Basic">TypeScript 基礎 (使用 Vite 建立環境)</Link> 文章。
