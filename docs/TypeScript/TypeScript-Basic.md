@@ -30,16 +30,16 @@ npm run dev
 
 ## Union
 
-要讓一個變數擁有多種的型態，可以使用 `Union`：
+要讓一個變數擁有多種的型別，可以使用 `Union`：
 
 ```ts title="src/main.ts" showLineNumbers
-let userId: string | number = ""; // userId 只能是 string 或 number 型態
+let userId: string | number = ""; // userId 只能是 string 或 number 型別
 userId = true; //Type 'boolean' is not assignable to type 'string | number'.
 ```
 
 ## Tuple
 
-如果要嚴謹的定義陣列內的變數型態，則可以使用 `Tuple`：
+如果要嚴謹的定義陣列內的變數型別，則可以使用 `Tuple`：
 
 ```ts title="src/main.ts" showLineNumbers
 let mixed: [string, number, boolean] = ["Wei", 123, true];
@@ -125,7 +125,7 @@ let Wei: Person = {
 
 ## Interface & Extends
 
-假設我們有兩種型態需要定義，`Person` 和 `Employee`，對某些物件來說可能只會用到 Person 內定義的屬性，並不會使用到 Employee 內定義的屬性：
+假設我們有兩種型別需要定義，`Person` 和 `Employee`，對某些物件來說可能只會用到 Person 內定義的屬性，並不會使用到 Employee 內定義的屬性：
 
 ```ts title="src/main.ts" showLineNumbers
 type Person = {
@@ -202,7 +202,7 @@ let Wei: PersonEmployee = {
 
 ## Type Aliases
 
-如果有重複的型態定義，可以使用 `type` 將型態儲存成一個樣板：
+如果有重複的型別定義，可以使用 `type` 將型別儲存成一個樣板：
 
 ```ts title='src/main.ts' showLineNumbers
 type stringOrNumber = string | number;
@@ -226,7 +226,7 @@ username = "Alex"; //
 
 ## Function
 
-如果 Function 需要接收外部參數，則需要定義參數的型態：
+如果 Function 需要接收外部參數，則需要定義參數的型別：
 
 ```ts title='src/main.ts' showLineNumbers
 //Parameter 'a' implicitly has an 'any' type.
@@ -244,7 +244,7 @@ const add = (a: number, b: number) => {
 };
 ```
 
-也可以指定 Function 的回傳值型態：
+也可以指定 Function 的回傳值型別：
 
 ```ts title='src/main.ts' showLineNumbers
 const add = (a: number, b: number): number => {
@@ -305,7 +305,7 @@ sum(1, 2, 3, 4); // 10
 
 如果有一個不會有回傳值的 Function，則 TypeScript 會自動將它定義為 `never`，像是 `無限迴圈` 和 `錯誤處理`。
 
-另外要特別提一點，`never` 是所有型態的子型態(Bottom Type)。
+另外要特別提一點，`never` 是所有型別的子型別(Bottom Type)。
 
 ```ts title='src/main.ts' showLineNumbers
 const infiniteLoop = () => {
@@ -324,7 +324,7 @@ const errorHandler = (errorMessage: any) => {
 
 ![Image](https://i.imgur.com/dvzW8TR.png)
 
-`never` 型態較常用在錯誤處理的方面，像是 `Type Guard`，如果傳入 string 或 number 以外的型態，TypeScript 會自動判斷傳進來的型態均為 never，這也是為什麼回傳 `errorHandler` 時不會發生錯誤，因為 `errorHandler` 為 never 型態。
+`never` 型別較常用在錯誤處理的方面，像是 `Type Guard`，如果傳入 string 或 number 以外的型別，TypeScript 會自動判斷傳進來的型別均為 never，這也是為什麼回傳 `errorHandler` 時不會發生錯誤，因為 `errorHandler` 為 never 型別。
 
 ```ts title='src/main.ts' showLineNumbers
 const errorHandler = (errorMessage: any) => {
@@ -340,17 +340,17 @@ const numberOrString = (value: number | string): string => {
 
 ## Assertions
 
-如果使用 DOM 方法去取得元素控制權的話，TypeScript 會隨著取得的方式不同而給予不同的型態。
+如果使用 DOM 方法去取得元素控制權的話，TypeScript 會隨著取得的方式不同而給予不同的型別。
 
-如果使用指定 ID 或 Class 的方式來取得元素，TypeScript 會不知道我們要取得的是哪種標籤元素，進而回傳 Element 型態。
+如果使用指定 ID 或 Class 的方式來取得元素，TypeScript 會不知道我們要取得的是哪種標籤元素，進而回傳 Element 型別。
 
 ![Image](https://i.imgur.com/3aTaXEv.png)
 
-要是直接告訴 TypeScript，我們要取得的是 span 或 p，TypeScript 就會知道要回傳該元素的型態。
+要是直接告訴 TypeScript，我們要取得的是 span 或 p，TypeScript 就會知道要回傳該元素的型別。
 
 ![Image](https://i.imgur.com/pDhj7uX.png)
 
-所以要用 ID 、 Class 或其他選擇器取得元素的話，會用 `as` 關鍵字，也就是斷言(Assertion)，直接定義型態，因為我們知道要取得的元素是什麼型態，但 TypeScript 不知道：
+所以要用 ID 、 Class 或其他選擇器取得元素的話，會用 `as` 關鍵字，也就是斷言(Assertion)，直接定義型別，因為我們知道要取得的元素是什麼型別，但 TypeScript 不知道：
 
 ```ts title='src/main.ts' showLineNumbers
 const spanId = document.querySelector("#span") as HTMLSpanElement;
@@ -366,7 +366,7 @@ const pId = <HTMLParagraphElement>document.querySelector("#p");
 
 ## Index Signatures & keyof Assertions
 
-假設今天有一物件，名為 `bill`，而該物件對應的型態為 `Menu`。
+假設今天有一物件，名為 `bill`，而該物件對應的型別為 `Menu`。
 
 ```ts title='src/main.ts' showLineNumbers
 interface Menu {
@@ -525,7 +525,7 @@ const assignGraded: Assignment = updateAssignment(assign1, { grade: 100 });
 
 ### Required
 
-如果在物件型態內有使用到 `?` 可選關鍵字，但又想讓某個物件變數必須將所有型態都定義且附值，則可以使用 `Required` 關鍵字：
+如果在物件型別內有使用到 `?` 可選關鍵字，但又想讓某個物件變數必須將所有型別都定義且附值，則可以使用 `Required` 關鍵字：
 
 ```ts title='src/main.ts' showLineNumbers
 interface Assignment {
@@ -674,7 +674,7 @@ type onlyValidValues = NonNullable<Grades>;
 
 ### ReturnType
 
-如果想要直接取得 Function Return 的型態又不想定義 Type 的話，可以使用 `ReturnType` 關鍵字：
+如果想要直接取得 Function Return 的型別又不想定義 Type 的話，可以使用 `ReturnType` 關鍵字：
 
 ```ts title='src/main.ts' showLineNumbers
 //不使用 ReturnType

@@ -183,6 +183,17 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ["powershell"],
+        magicComments: [
+          {
+            className: "theme-code-block-highlighted-line",
+            line: "highlight",
+            block: { start: "highlight-start", end: "highlight-end" },
+          },
+          {
+            className: "code-block-error-line",
+            line: "error",
+          },
+        ],
       },
     }),
 };
