@@ -8,6 +8,10 @@ og:description: "TypeScript Zod"
 sidebar_position: 1
 ---
 
+## 官方文件
+
+[Zod](https://zod.dev/?id=table-of-contents)
+
 ## 環境設定
 
 先初始化 TypeScript 專案：
