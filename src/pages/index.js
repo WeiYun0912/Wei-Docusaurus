@@ -6,6 +6,7 @@ import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
 import Project from "../helper/Projects.json";
 import SideProject from "../helper/SideProjects.json";
+import "./index.css";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();

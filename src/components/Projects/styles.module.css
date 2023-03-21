@@ -94,9 +94,71 @@
   outline-offset: 2px;
 }
 
+.cardContainer {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  /* justify-content: center; */
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.tilt {
+  background-color: #fffbf5;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.tiltImageContainer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.tiltImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.tiltContentContainer {
+  margin-top: 1.25rem;
+}
+
+.tiltTitle {
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.tiltDesc {
+  margin-top: 0.5rem;
+  color: #000;
+  font-size: 16px;
+}
+
+.tiltRole {
+  color: #000;
+  font-weight: bold;
+}
+
+.tiltSkillContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 @media (min-width: 768px) {
   .button {
     padding: 0.75rem 1.5rem;
+  }
+
+  .tilt {
+    width: 360px;
   }
 }
 

@@ -5,7 +5,28 @@
     "projectDescribe": "使用以太坊私有鏈打造一個去中心化二手車交易與管理平台，透過跟特定廠商合作來使汽車維修和保養的資料透明公開，使消費者在購買二手車時能夠信任該部汽車的車主，該專題最後也演變成我碩士論文的題目。",
     "projectImage": "img/projects/DVM.png",
     "projectUrl": "https://www.cakeresume.com/portfolios/bde04b",
-    "tech": "Ethereum, Solidity, Metamask, Slither, React",
+    "tech": [
+      {
+        "name": "Ethereum",
+        "color": "#86A3B8"
+      },
+      {
+        "name": "Solidity",
+        "color": "#567189"
+      },
+      {
+        "name": "Metamask",
+        "color": "#F2921D"
+      },
+      {
+        "name": "Slither",
+        "color": "#F55050"
+      },
+      {
+        "name": "React",
+        "color": "#0081B4"
+      }
+    ],
     "role": "全端",
     "videoUrl": "https://www.youtube.com/watch?v=-kcfoJK1nhs"
   },
@@ -14,7 +35,20 @@
     "projectTitle": "水情報你知 FloodingHelper",
     "projectDescribe": "因台灣每年都有民眾至溪邊戲水而遭遇危險，危險通常是因上游下暴雨造成溪流暴漲，但下游民眾不知情，等溪流暴漲在逃跑就來不及了，故該專題開發了一款水情通知APP，會依照危險程度推播訊息給使用者。",
     "projectImage": "img/projects/FloodingHelper.png",
-    "tech": "Android Studio, Codeigniter 3, MySQL",
+    "tech": [
+      {
+        "name": "Android Studio",
+        "color": "#03C988"
+      },
+      {
+        "name": "Codeigniter 3",
+        "color": "#D61355"
+      },
+      {
+        "name": "MySQL",
+        "color": "#C92C6D"
+      }
+    ],
     "role": "全端",
     "projectUrl": "https://www.cakeresume.com/portfolios/bde04b"
   },
@@ -24,15 +58,33 @@
     "projectTitle": "Place Radar",
     "projectDescribe": "蒐集台灣、韓國、日本的開放資料並分析該國家的某區域人口年齡分佈與幸福生活指數等，透過這樣的方式讓要在該區域買房子的人快速了解周遭的生活機能以及居住品質。",
     "projectImage": "img/projects/PlaceRadar.png",
-    "tech": "Codeigniter 3, MySQL",
+    "tech": [
+      {
+        "name": "Codeigniter 3",
+        "color": "#D61355"
+      },
+      {
+        "name": "MySQL",
+        "color": "#C92C6D"
+      }
+    ],
     "role": "後端"
   },
   {
     "id": 4,
     "projectTitle": "服務足跡 Footprint",
-    "projectDescribe": "為了能夠讓教育資源運用在真正需要的地方，該專題蒐集了全台灣的國中小開放資料，並可針對特定條件進行搜尋，例如：學生總數、學校坪數、是否為偏鄉學校等，搜尋後會將結果以Google Map的方式顯示給服務團隊看，讓服務團隊能夠將資源投入到正確的地方。",
+    "projectDescribe": "為了能夠讓教育資源運用在真正需要的地方，該專題蒐集了全台灣的國中小開放資料，並可針對特定條件進行搜尋，例如：學生總數、學校坪數、是否為偏鄉學校等，搜尋後會將結果以 Google Map 的方式顯示給服務團隊看，讓服務團隊能夠將資源投入到正確的地方。",
     "projectImage": "img/projects/Footprint.png",
-    "tech": "Codeigniter 3, MySQL",
+    "tech": [
+      {
+        "name": "Codeigniter 3",
+        "color": "#D61355"
+      },
+      {
+        "name": "MySQL",
+        "color": "#C92C6D"
+      }
+    ],
     "role": "後端"
   }
 ]
