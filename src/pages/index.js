@@ -9,7 +9,8 @@ import Experiences from "../helper/Experiences.json";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import "./index.css";
 import Experience from "../components/Experience/Experience";
-import LottieView from "lottie-react";
+import Lottie from "lottie-react";
+import Loading from "../helper/Loading.json";
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -29,24 +30,10 @@ export default function Home() {
         >
           求學經歷
         </h1>
-        <LottieView
-          style={{ height: 200, alignSelf: "center", marginBottom: 30 }}
-          animationData={require("../helper/loading.json")}
-          autoPlay
-          speed={1}
-          loop={true}
-        />
-        <BrowserOnly
-          fallback={
-            <LottieView
-              style={{ height: 200, alignSelf: "center", marginBottom: 30 }}
-              animationData={require("../helper/loading.json")}
-              autoPlay
-              speed={1}
-              loop={true}
-            />
-          }
-        >
+
+        <Lottie animationData={Loading} loop={true} style={{ height: 150 }} />
+
+        <BrowserOnly fallback={<h1>Loadingg</h1>}>
           {() => {
             return <Experience Experiences={Experiences} />;
           }}
