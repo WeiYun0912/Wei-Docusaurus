@@ -9,6 +9,7 @@ import Experiences from "../helper/Experiences.json";
 
 import "./index.css";
 import Experience from "../components/Experience/Experience";
+import { Suspense } from "react";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -19,7 +20,9 @@ export default function Home() {
     >
       <Banner />
       <main>
-        <Experience Experiences={Experiences} />
+        <Suspense fallback={<h1>Loading...</h1>}>
+          <Experience Experiences={Experiences} />
+        </Suspense>
         <Projects ProjectsData={Project} title="曾經參與過的專案 (比賽專題)" />
         <Projects ProjectsData={SideProject} title="個人作品 (Side Projects)" />
       </main>
