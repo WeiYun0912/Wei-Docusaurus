@@ -1,0 +1,70 @@
+[
+  {
+    "title": "碩士二年級",
+    "name": "高雄科技大學 - 電子工程學系",
+    "icon": "img/logo/nkustlogo.png",
+    "iconBg": "#fff",
+    "date": "碩士二年級",
+    "points": [
+      "經營 Youtube 頻道",
+      "開發個人網站，並開始撰寫技術文章。",
+      "學習前端相關技術 TypeScript"
+    ]
+  },
+  {
+    "title": "碩士一年級",
+    "name": "高雄科技大學 - 電子工程學系",
+    "icon": "img/logo/nkustlogo.png",
+    "iconBg": "#fff",
+    "date": "碩士一年級",
+    "points": [
+      "參加 2021 第 26 屆大專校院資訊應用服務創新競賽，入圍亞太中文組。",
+      "學習區塊鏈相關技術 Ethereum、Solidity、Truffle、Geth、Hyperledger Fabric、Slither、web3.js。",
+      "學習前端相關技術 React Native Expo。"
+    ]
+  },
+
+  {
+    "title": "大學四年級",
+    "name": "樹德科技大學 - 資訊工程學系",
+    "icon": "img/logo/stulogo.png",
+    "iconBg": "#fff",
+    "date": "大學四年級",
+    "points": [
+      "與團隊參加校內專題競賽，獲得第一名。",
+      "學習前後端相關技術 React、NodeJS、GraphQL、Firebase、MongoDB、Mongoose。",
+      "管理近 10 人的產學合作計畫團隊，同時須負責撰寫程式碼並至北中南各地開會。"
+    ]
+  },
+  {
+    "title": "大學三年級",
+    "name": "樹德科技大學 - 資訊工程學系",
+    "icon": "img/logo/stulogo.png",
+    "iconBg": "#fff",
+    "date": "大學三年級",
+    "points": [
+      "與團隊參加 2019 資料創新應用競賽，獲得多元氣象服務組銅獎。",
+      "與團隊參加 2019 臺南市資料視覺挑戰賽(黑客松)",
+      "與團隊參加校內專題競賽，獲得第二名。",
+      "參與實驗室產學合作計畫",
+      "學習作業系統 Linux、Kali Linux。"
+    ]
+  },
+  {
+    "title": "大學二年級",
+    "name": "樹德科技大學 - 資訊工程學系",
+    "icon": "img/logo/stulogo.png",
+    "iconBg": "#fff",
+    "date": "大學二年級",
+    "points": [
+      "與團隊參加 2018 亞洲跨國際黑克松(國內)，入圍台灣前五名。",
+      "與團隊參加 2018 亞洲跨國際黑克松(國內外)，獲得最佳黑客獎。",
+      "與團隊參加 2018 資訊應用創新競賽，獲得教育開放資料組第二名。",
+      "與團隊參加 2018 資料創新應用競賽，入圍社會經濟空間組。",
+      "開發實驗室設備管理網頁",
+      "學習網頁前後端相關技術 HTML、CSS、JavaScript、jQuery、PHP、MySQL、Codeigniter 3。",
+      "學習程式語言 Python、Java、C。",
+      "刷高中生程式解題系統"
+    ]
+  }
+]

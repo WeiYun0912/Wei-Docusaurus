@@ -46,15 +46,10 @@ Youtube 頻道會不定時上傳程式教學，一方面是當自己忘記某個
 9. Material UI
 10. React Native Elements
 11. Redux
-12. Ethereum
-13. Solidity
-14. web3.js
-15. Truffle
-16. Ganache
-17. GraphQL
-18. MongoDB
-19. Node.JS
-20. Trello
+12. React Query
+13. MongoDB
+14. Node.JS
+15. Trello
 
 # 曾經學習過的技術與工具 📓
 
@@ -85,11 +80,12 @@ Youtube 頻道會不定時上傳程式教學，一方面是當自己忘記某個
 25. Firebase
 26. Heroku
 27. Figma
-28. GraphQL
-29. Apollo GraphQL
-30. Codeigniter 3
-31. Linux
-32. Kali Linux
+28. Trello
+29. GraphQL
+30. Apollo GraphQL
+31. Codeigniter 3
+32. Linux
+33. Kali Linux
 
 <br/>
 
