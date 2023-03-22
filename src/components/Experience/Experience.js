@@ -12,16 +12,16 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{ background: "#0e0d13", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #040405" }}
       date={experience.date}
-      // iconStyle={{ background: experience.iconBg }}
-      // icon={
-      //   <div className={styles.iconContainer}>
-      //     <img
-      //       src={experience.icon}
-      //       alt={experience.name}
-      //       className={styles.iconImage}
-      //     />
-      //   </div>
-      // }
+      iconStyle={{ background: experience.iconBg }}
+      icon={
+        <div className={styles.iconContainer}>
+          <img
+            src={experience.icon}
+            alt={experience.name}
+            className={styles.iconImage}
+          />
+        </div>
+      }
     >
       <div>
         <h3 className={styles.experienceTitle}>{experience.title}</h3>
