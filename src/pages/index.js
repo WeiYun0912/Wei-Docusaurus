@@ -30,7 +30,7 @@ export default function Home() {
           求學經歷
         </h1>
 
-        <BrowserOnly fallback={<Experience Experiences={Experiences} />}>
+        <BrowserOnly fallback={<Loading />}>
           {() => {
             return <Experience Experiences={Experiences} />;
           }}
