@@ -47,7 +47,6 @@ const ExperienceCard = ({ experience }) => {
 const Experience = ({ Experiences }) => {
   return (
     <div className={styles.experienceContainer}>
-      <h1 className={styles.title}>求學經歷</h1>
       <VerticalTimeline>
         {Experiences.map((experience, index) => (
           <ExperienceCard key={index} experience={experience} />
