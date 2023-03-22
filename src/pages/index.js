@@ -1,6 +1,7 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import Loading from "../helper/Loading.json";
 import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
 import Project from "../helper/Projects.json";
@@ -10,7 +11,6 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 import "./index.css";
 import Experience from "../components/Experience/Experience";
 import Lottie from "lottie-react";
-import Loading from "../helper/Loading.json";
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
