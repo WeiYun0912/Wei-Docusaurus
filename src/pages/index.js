@@ -1,7 +1,7 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import Loading from "../helper/Loading.json";
+
 import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
 import Project from "../helper/Projects.json";
@@ -10,7 +10,6 @@ import Experiences from "../helper/Experiences.json";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import "./index.css";
 import Experience from "../components/Experience/Experience";
-import Lottie from "lottie-react";
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -31,9 +30,7 @@ export default function Home() {
           求學經歷
         </h1>
 
-        <Lottie animationData={Loading} loop={true} style={{ height: 150 }} />
-
-        <BrowserOnly fallback={<h1>Loadingg</h1>}>
+        <BrowserOnly fallback={<Loading />}>
           {() => {
             return <Experience Experiences={Experiences} />;
           }}
@@ -45,3 +42,13 @@ export default function Home() {
     </Layout>
   );
 }
+
+const Loading = () => (
+  <div class="loading">
+    <div class="loadingio-spinner-rolling-f1v13ukb9js">
+      <div class="ldio-nawj84fd2cd">
+        <div></div>
+      </div>
+    </div>
+  </div>
+);
