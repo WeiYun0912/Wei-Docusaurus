@@ -29,6 +29,13 @@ export default function Home() {
         >
           求學經歷
         </h1>
+        <LottieView
+          style={{ height: 200, alignSelf: "center", marginBottom: 30 }}
+          animationData={require("../helper/loading.json")}
+          autoPlay
+          speed={1}
+          loop={true}
+        />
         <BrowserOnly
           fallback={
             <LottieView
