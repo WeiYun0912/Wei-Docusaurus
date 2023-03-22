@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="WeiWei 前端程式教學與筆記"
     >
       <Banner />
       <main>
@@ -30,7 +30,7 @@ export default function Home() {
           求學經歷
         </h1>
 
-        <BrowserOnly fallback={<Loading />}>
+        <BrowserOnly fallback={<Experience Experiences={Experiences} />}>
           {() => {
             return <Experience Experiences={Experiences} />;
           }}
