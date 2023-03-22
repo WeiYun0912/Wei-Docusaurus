@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "name": "前端網頁程式開發",
+    "img": "img/web-development.png",
+    "tags": [
+      {
+        "name": "React",
+        "bgColor": "#19a7ce"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "手機應用程式開發",
+    "img": "img/mobile-development.png",
+    "tags": [
+      {
+        "name": "React Native Expo",
+        "bgColor": "#146C94"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "自媒體經營者",
+    "img": "img/social-media.png",
+    "tags": [
+      {
+        "name": "Youtube",
+        "bgColor": "#FC2947"
+      }
+    ]
+  }
+]

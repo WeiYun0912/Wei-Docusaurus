@@ -5,11 +5,15 @@ import Layout from "@theme/Layout";
 import Banner from "../components/Banner/Banner";
 import Projects from "../components/Projects/Projects";
 import Project from "../helper/Projects.json";
+import Skills from "../helper/Skills.json";
+import Skill from "../components/Skill/Skill";
+
 import SideProject from "../helper/SideProjects.json";
 import Experiences from "../helper/Experiences.json";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import "./index.css";
 import Experience from "../components/Experience/Experience";
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -19,6 +23,7 @@ export default function Home() {
     >
       <Banner />
       <main>
+        <Skill Skills={Skills} />
         <h1
           style={{
             fontSize: "clamp(2rem, 3vw + 1rem, 3rem)",
