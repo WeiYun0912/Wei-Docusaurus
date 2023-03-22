@@ -3,3 +3,5 @@
 	Licensed under the MIT License (MIT), see
 	http://jedwatson.github.io/classnames
 */
+
+//! goToAndStop must be relative to the start of the current segment
