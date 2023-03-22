@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { useColorMode } from "@docusaurus/theme-common";
-import Tilt from "react-tilt";
+// import Tilt from "react-tilt";
 const Projects = ({ ProjectsData, title }) => {
   const { colorMode } = useColorMode();
   console.log(colorMode);
@@ -33,14 +33,7 @@ const ProjectCard = ({
   colorMode,
 }) => {
   return (
-    <Tilt
-      options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
-      className={styles.tilt}
-    >
+    <div className={styles.tilt}>
       <div className={styles.tiltImageContainer}>
         <img
           src={projectImage}
@@ -92,6 +85,6 @@ const ProjectCard = ({
           </p>
         ))}
       </div>
-    </Tilt>
+    </div>
   );
 };

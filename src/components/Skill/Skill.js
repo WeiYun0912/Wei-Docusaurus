@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-import Tilt from "react-tilt";
+// import Tilt from "react-tilt";
 const Skill = ({ Skills }) => {
   return (
     <>
@@ -16,16 +16,9 @@ const Skill = ({ Skills }) => {
 
 const SkillCard = ({ name, img, tags }) => {
   return (
-    <Tilt className={styles.tilt}>
+    <div className={styles.tilt}>
       <div className={styles.tiltContainer}>
-        <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
-          className={styles.tiltContentContainer}
-        >
+        <div className={styles.tiltContentContainer}>
           <img src={img} className={styles.tiltImage} />
           <h3 className={styles.tiltTitle}>{name}</h3>
         </div>
@@ -40,7 +33,7 @@ const SkillCard = ({ name, img, tags }) => {
           ))}
         </div>
       </div>
-    </Tilt>
+    </div>
   );
 };
 
