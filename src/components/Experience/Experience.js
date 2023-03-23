@@ -9,6 +9,7 @@ import styles from "./styles.module.css";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
+      key={experience.title}
       contentStyle={{ background: "#0e0d13", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #040405" }}
       date={experience.date}
