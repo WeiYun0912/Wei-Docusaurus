@@ -9,7 +9,7 @@ import Skills from "../helper/Skills.json";
 import Skill from "../components/Skill/Skill";
 
 import SideProject from "../helper/SideProjects.json";
-import Experiences from "../helper/Experiences.json";
+// import Experiences from "../helper/Experiences.json";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import "./index.css";
 import Experience from "../components/Experience/Experience";
@@ -37,7 +37,7 @@ export default function Home() {
 
         <BrowserOnly fallback={<Loading />}>
           {() => {
-            return <Experience Experiences={Experiences} />;
+            return <Experience />;
           }}
         </BrowserOnly>
 
