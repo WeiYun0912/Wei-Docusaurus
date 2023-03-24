@@ -20,6 +20,7 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="WeiWei 前端程式教學與筆記"
+      wrapperClassName="Layout"
     >
       <Banner />
       <main>
