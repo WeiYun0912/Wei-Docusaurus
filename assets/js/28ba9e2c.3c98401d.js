@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[9574],{1126:e=>{e.exports=JSON.parse('{"title":"React","slug":"/category/react","permalink":"/Wei-Docusaurus/docs/category/react","navigation":{"previous":{"title":"Intro","permalink":"/Wei-Docusaurus/docs/intro"},"next":{"title":"Hooks","permalink":"/Wei-Docusaurus/docs/category/hooks"}}}')}}]);
