@@ -34,6 +34,7 @@ const SkillCard = ({ name, img, tags }) => {
             <div
               className={styles.tag}
               style={{ backgroundColor: tag.bgColor }}
+              key={tag.name}
             >
               <span>{tag.name}</span>
             </div>

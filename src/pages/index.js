@@ -50,9 +50,9 @@ export default function Home() {
 }
 
 const Loading = () => (
-  <div class="loading">
-    <div class="loadingio-spinner-rolling-f1v13ukb9js">
-      <div class="ldio-nawj84fd2cd">
+  <div className="loading">
+    <div className="loadingio-spinner-rolling-f1v13ukb9js">
+      <div className="ldio-nawj84fd2cd">
         <div></div>
       </div>
     </div>
